@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 270 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 190 -defaultsOSRD
+preplace port dac_clk -pg 1 -y 210 -defaultsOSRD
+preplace port ena -pg 1 -y 40 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -y 250 -defaultsOSRD
+preplace portBus dina -pg 1 -y 90 -defaultsOSRD
+preplace portBus addra -pg 1 -y 20 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -y 250 -defaultsOSRD
+preplace inst invert -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst splitter_0 -pg 1 -lvl 2 -y 390 -defaultsOSRD
+preplace inst BRAM_SNAP_0 -pg 1 -lvl 1 -y 230 -defaultsOSRD
+preplace inst I_table -pg 1 -lvl 3 -y 150 -defaultsOSRD
+preplace inst c_valid_one -pg 1 -lvl 1 -y 430 -defaultsOSRD
+preplace netloc Conn1 1 0 1 -20
+preplace netloc BRAM_SNAP_0_gpo 1 1 2 310J 60 690
+preplace netloc addra_1 1 0 3 NJ 20 NJ 20 710J
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -10J 90 300 90 660
+preplace netloc dina_1 1 0 3 -40J 80 NJ 80 680J
+preplace netloc I_table_doutb 1 1 2 330 70 670
+preplace netloc splitter_0_Q 1 0 3 0 50 NJ 50 640
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 1 -20J
+preplace netloc xlconstant_0_dout 1 2 1 680
+preplace netloc c_valid_one_dout 1 0 2 0 370 280J
+preplace netloc BRAM_SNAP_0_vec_in1 1 1 1 290
+preplace netloc Net1 1 0 3 -30J 10 NJ 10 720J
+preplace netloc invert_Res 1 2 1 650J
+preplace netloc ena_1 1 0 3 NJ 40 320J 40 700
+levelinfo -pg 1 -60 140 490 830 950 -top -20 -bot 490
+"
+}
+0

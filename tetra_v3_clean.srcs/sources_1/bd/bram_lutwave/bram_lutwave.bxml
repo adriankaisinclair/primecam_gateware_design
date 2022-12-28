@@ -1,0 +1,2678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="39">
+  <CompositeFile CompositeFileTopName="bram_lutwave" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1672259435"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1672259435"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1672259435"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1672259435"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/bram_lutwave_zynq_ultra_ps_e_0_0/bram_lutwave_zynq_ultra_ps_e_0_0.xci" Type="IP">
+        <Instance HierarchyPath="zynq_ultra_ps_e_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510393" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_usp_rf_data_converter_0_0/bram_lutwave_usp_rf_data_converter_0_0.xci" Type="IP">
+        <Instance HierarchyPath="usp_rf_data_converter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_rst_ps8_0_99M_0/bram_lutwave_rst_ps8_0_99M_0.xci" Type="IP">
+        <Instance HierarchyPath="rst_ps8_0_99M"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510422" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_clk_wiz_0_0/bram_lutwave_clk_wiz_0_0.xci" Type="IP">
+        <Instance HierarchyPath="clk_wiz_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457143" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_0_1/bram_lutwave_xlconstant_0_1.xci" Type="IP">
+        <Instance HierarchyPath="bool_true"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510265" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_rst_ps8_0_99M_1/bram_lutwave_rst_ps8_0_99M_1.xci" Type="IP">
+        <Instance HierarchyPath="rst_256MHz"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510423" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ps8_0_axi_periph_1/bram_lutwave_ps8_0_axi_periph_1.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="1653510258" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_3/bram_lutwave_i0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan1/q_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510254" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_3/bram_lutwave_i1_3.xci" Type="IP">
+        <Instance HierarchyPath="chan1/q_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_I_concat_0/bram_lutwave_I_concat_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/fft_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510282" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_1/bram_lutwave_i0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/i_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510254" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_1/bram_lutwave_i1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/i_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_5/bram_lutwave_i0_5.xci" Type="IP">
+        <Instance HierarchyPath="chan1/accum_sync/accum_len"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_5/bram_lutwave_i1_5.xci" Type="IP">
+        <Instance HierarchyPath="chan1/accum_sync/accum_rst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_6/bram_lutwave_i1_6.xci" Type="IP">
+        <Instance HierarchyPath="chan1/accum_sync/sync_in"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_6/bram_lutwave_i0_6.xci" Type="IP">
+        <Instance HierarchyPath="chan1/dds_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_concat_0/bram_lutwave_fft_concat_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510282" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_0/bram_lutwave_ddc_concat_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/accum_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510282" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_0/bram_lutwave_i0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/fft_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510254" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_0/bram_lutwave_i1_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/bin_num_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1653510255" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_7/bram_lutwave_i1_7.xci" Type="IP">
+        <Instance HierarchyPath="chan1/load_bins_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654317094" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ps8_0_axi_periph1_0/bram_lutwave_ps8_0_axi_periph1_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="1665011785" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xbar_2/bram_lutwave_xbar_2.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110509" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xbar_3/bram_lutwave_xbar_3.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110509" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dsp_regs_0_0/bram_lutwave_dsp_regs_0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/dsp_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654317591" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_ctrl_0_7/bram_lutwave_axi_bram_ctrl_0_7.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/axi_bram_ctrl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_8/bram_lutwave_xlconstant_1_8.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654536574" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_9/bram_lutwave_xlconstant_1_9.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654536574" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_5/bram_lutwave_blk_mem_gen_0_5.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654553940" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_2/bram_lutwave_bool_false_2.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/bool_false"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654571386" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_true_2/bram_lutwave_bool_true_2.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/bool_true_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654571386" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_0_4/bram_lutwave_mymux_0_4.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/mymux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654799834" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_gpio_0_9/bram_lutwave_axi_gpio_0_9.xci" Type="IP">
+        <Instance HierarchyPath="chan1/axi_wide_ctrl"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654571965" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_1_1/bram_lutwave_xlslice_1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654571662" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_0_0/bram_lutwave_mux_4port_0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/mux_4port_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654799834" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_1_2/bram_lutwave_xlslice_1_2.xci" Type="IP">
+        <Instance HierarchyPath="chan1/xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654614829" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconcat_1_1/bram_lutwave_xlconcat_1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/adc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654615571" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_3/bram_lutwave_bool_false_3.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/bool_false_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654615571" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconcat_1_2/bram_lutwave_xlconcat_1_2.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/pfb_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654615571" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_1_0/bram_lutwave_bool_false_1_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/bool_false_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654615572" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_pfb_concat_0/bram_lutwave_pfb_concat_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654615572" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_1_1/bram_lutwave_bool_false_1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/bool_false_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1654615572" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_mealy_x16_w_0_0/bram_lutwave_axi_bram_mealy_x16_w_0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/axi_bram_mealy_x16_w_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655261460" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_0_1/bram_lutwave_mux_4port_0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/wide_bram/mux_4port_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655261341" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_rst_ps8_0_99M1_0/bram_lutwave_rst_ps8_0_99M1_0.xci" Type="IP">
+        <Instance HierarchyPath="rst_125MHz"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddr4_0_0/bram_lutwave_ddr4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ddr4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_0_8/bram_lutwave_mymux_0_8.xci" Type="IP">
+        <Instance HierarchyPath="mymux_data"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_0_6/bram_lutwave_xlconstant_0_6.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655794545" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_0_9/bram_lutwave_mymux_0_9.xci" Type="IP">
+        <Instance HierarchyPath="mymux_araddr"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_1_0/bram_lutwave_mymux_1_0.xci" Type="IP">
+        <Instance HierarchyPath="mymux_arvalid"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_2_0/bram_lutwave_mymux_2_0.xci" Type="IP">
+        <Instance HierarchyPath="mymux_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_gpio_0_10/bram_lutwave_axi_gpio_0_10.xci" Type="IP">
+        <Instance HierarchyPath="axi_ddr4_mux"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655797216" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_0_10/bram_lutwave_xlslice_0_10.xci" Type="IP">
+        <Instance HierarchyPath="xlslice_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655795215" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_0_11/bram_lutwave_xlslice_0_11.xci" Type="IP">
+        <Instance HierarchyPath="xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655795215" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fifo_generator_0_0/bram_lutwave_fifo_generator_0_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/fifo_generator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1661306549" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_14/bram_lutwave_xlconstant_1_14.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655796293" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_util_vector_logic_0_0/bram_lutwave_util_vector_logic_0_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/util_vector_logic_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1655795652" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_2_3/bram_lutwave_xlslice_2_3.xci" Type="IP">
+        <Instance HierarchyPath="slice_chan4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014168" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_slice_chan1_0/bram_lutwave_slice_chan1_0.xci" Type="IP">
+        <Instance HierarchyPath="slice_chan2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665013827" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_slice_chan2_0/bram_lutwave_slice_chan2_0.xci" Type="IP">
+        <Instance HierarchyPath="slice_chan3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014168" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_slice_chan3_0/bram_lutwave_slice_chan3_0.xci" Type="IP">
+        <Instance HierarchyPath="slice_chan1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663616693" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_d_flip_0_0/bram_lutwave_d_flip_0_0.xci" Type="IP">
+        <Instance HierarchyPath="refresh_machine/d_flip_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_d_flip_0_2/bram_lutwave_d_flip_0_2.xci" Type="IP">
+        <Instance HierarchyPath="refresh_machine/d_flip_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_1/bram_lutwave_c_counter_binary_0_1.xci" Type="IP">
+        <Instance HierarchyPath="refresh_machine/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_util_vector_logic_0_1/bram_lutwave_util_vector_logic_0_1.xci" Type="IP">
+        <Instance HierarchyPath="refresh_machine/util_vector_logic_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1661304279" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_2/bram_lutwave_c_counter_binary_0_2.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/c_counter_binary_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_1_0/bram_lutwave_c_counter_binary_1_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/c_counter_binary_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_util_vector_logic_0_2/bram_lutwave_util_vector_logic_0_2.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/util_vector_logic_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1661306846" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_3_0/bram_lutwave_mymux_3_0.xci" Type="IP">
+        <Instance HierarchyPath="mymux_arlen"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663111115" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_arlen_0/bram_lutwave_mymux_arlen_0.xci" Type="IP">
+        <Instance HierarchyPath="mymux_arsize"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663111115" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_arsize_0/bram_lutwave_mymux_arsize_0.xci" Type="IP">
+        <Instance HierarchyPath="mymux_arburst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663111115" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_5_0/bram_lutwave_xlconstant_5_0.xci" Type="IP">
+        <Instance HierarchyPath="arlen"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663111115" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_arlen_0/bram_lutwave_arlen_0.xci" Type="IP">
+        <Instance HierarchyPath="arsize"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663111218" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_arsize_0/bram_lutwave_arsize_0.xci" Type="IP">
+        <Instance HierarchyPath="arburst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663111115" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconcat_0_0/bram_lutwave_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_util_reduced_logic_0_0/bram_lutwave_util_reduced_logic_0_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/util_reduced_logic_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663112758" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_3/bram_lutwave_c_counter_binary_0_3.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/c_counter_binary_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_2_4/bram_lutwave_xlslice_2_4.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663115612" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconcat_0_1/bram_lutwave_xlconcat_0_1.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/xlconcat_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663116524" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_2_4/bram_lutwave_xlconstant_2_4.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/xlconstant_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663117140" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_2_0/bram_lutwave_c_counter_binary_2_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/c_counter_binary_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_rise_edge_0_0/bram_lutwave_rise_edge_0_0.xci" Type="IP">
+        <Instance HierarchyPath="read_machine/rise_edge_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blast_module_v6_cord_0_0/bram_lutwave_blast_module_v6_cord_0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/blast_module_v6_cord_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_ctrl_0_11/bram_lutwave_axi_bram_ctrl_0_11.xci" Type="IP">
+        <Instance HierarchyPath="chan1/axi_dphi_bram"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_9/bram_lutwave_blk_mem_gen_0_9.xci" Type="IP">
+        <Instance HierarchyPath="chan1/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663457144" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_4/bram_lutwave_c_counter_binary_0_4.xci" Type="IP">
+        <Instance HierarchyPath="chan1/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1664136202" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_5_1/bram_lutwave_xlconstant_5_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1/xlconstant_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663287787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_load_bins_slice_3/bram_lutwave_load_bins_slice_3.xci" Type="IP">
+        <Instance HierarchyPath="chan1/even_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663287787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_even_bin_slice_0/bram_lutwave_even_bin_slice_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/odd_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663287787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_5_2/bram_lutwave_xlconstant_5_2.xci" Type="IP">
+        <Instance HierarchyPath="chan1/xlconstant_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663288640" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_6_0/bram_lutwave_xlconstant_6_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/xlconstant_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663288640" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_slice_chan1_1/bram_lutwave_slice_chan1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan1ts/top64"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663617033" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_0_0/bram_lutwave_mux_0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1ts/mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663617033" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_5/bram_lutwave_c_counter_binary_0_5.xci" Type="IP">
+        <Instance HierarchyPath="chan1ts/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663617146" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bot64_0/bram_lutwave_bot64_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1ts/bot65"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1663617033" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_0/bram_lutwave_c_shift_ram_0_0.xci" Type="IP">
+        <Instance HierarchyPath="chan1/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_concat_0/bram_lutwave_accum_concat_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/accum_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_1_3/bram_lutwave_xlslice_1_3.xci" Type="IP">
+        <Instance HierarchyPath="chan2/xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_2_6/bram_lutwave_xlslice_2_6.xci" Type="IP">
+        <Instance HierarchyPath="chan2/xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dds_shift_slice_0/bram_lutwave_dds_shift_slice_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/dds_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_1/bram_lutwave_ddc_concat_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_load_bins_slice_4/bram_lutwave_load_bins_slice_4.xci" Type="IP">
+        <Instance HierarchyPath="chan2/load_bins_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_wide_ctrl_0/bram_lutwave_axi_wide_ctrl_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/axi_wide_ctrl"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_concat_1/bram_lutwave_fft_concat_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/fft_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_shift_slice_0/bram_lutwave_fft_shift_slice_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/fft_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bin_num_slice_0/bram_lutwave_bin_num_slice_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/bin_num_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dsp_regs_0_1/bram_lutwave_dsp_regs_0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/dsp_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_7/bram_lutwave_i0_7.xci" Type="IP">
+        <Instance HierarchyPath="chan2/q_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_8/bram_lutwave_i1_8.xci" Type="IP">
+        <Instance HierarchyPath="chan2/q_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_len_0/bram_lutwave_accum_len_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/accum_sync/accum_len"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_rst_0/bram_lutwave_accum_rst_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/accum_sync/accum_rst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_sync_in_0/bram_lutwave_sync_in_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/accum_sync/sync_in"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_8/bram_lutwave_i0_8.xci" Type="IP">
+        <Instance HierarchyPath="chan2/i_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_9/bram_lutwave_i1_9.xci" Type="IP">
+        <Instance HierarchyPath="chan2/i_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_ctrl_0_12/bram_lutwave_axi_bram_ctrl_0_12.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/axi_bram_ctrl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110511" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_15/bram_lutwave_xlconstant_1_15.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_2_5/bram_lutwave_xlconstant_2_5.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011786" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_10/bram_lutwave_blk_mem_gen_0_10.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110511" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_4/bram_lutwave_bool_false_4.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/bool_false"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_true_1_0/bram_lutwave_bool_true_1_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/bool_true_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_0_2/bram_lutwave_mux_4port_0_2.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/mux_4port_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_adc_concat_0/bram_lutwave_adc_concat_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/adc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_1_2/bram_lutwave_bool_false_1_2.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/bool_false_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_pfb_concat_1/bram_lutwave_pfb_concat_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/pfb_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_2_0/bram_lutwave_bool_false_2_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/bool_false_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_2/bram_lutwave_ddc_concat_2.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_3_0/bram_lutwave_bool_false_3_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/bool_false_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_0_10/bram_lutwave_mymux_0_10.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/mymux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_mealy_x16_w_0_1/bram_lutwave_axi_bram_mealy_x16_w_0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/axi_bram_mealy_x16_w_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_1_0/bram_lutwave_mux_4port_1_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/wide_bram/mux_4port_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_dphi_bram_0/bram_lutwave_axi_dphi_bram_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/axi_dphi_bram"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_11/bram_lutwave_blk_mem_gen_0_11.xci" Type="IP">
+        <Instance HierarchyPath="chan2/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_6/bram_lutwave_c_counter_binary_0_6.xci" Type="IP">
+        <Instance HierarchyPath="chan2/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_5_3/bram_lutwave_xlconstant_5_3.xci" Type="IP">
+        <Instance HierarchyPath="chan2/xlconstant_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_even_bin_slice_1/bram_lutwave_even_bin_slice_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/even_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_odd_bin_slice_0/bram_lutwave_odd_bin_slice_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/odd_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_6_1/bram_lutwave_xlconstant_6_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/xlconstant_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_7_0/bram_lutwave_xlconstant_7_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2/xlconstant_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665011787" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blast_module_v6_cord_0_1/bram_lutwave_blast_module_v6_cord_0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/blast_module_v6_cord_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_1/bram_lutwave_c_shift_ram_0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_top64_0/bram_lutwave_top64_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2ts/top64"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665013827" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_0_1/bram_lutwave_mux_0_1.xci" Type="IP">
+        <Instance HierarchyPath="chan2ts/mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665013827" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_7/bram_lutwave_c_counter_binary_0_7.xci" Type="IP">
+        <Instance HierarchyPath="chan2ts/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bot65_0/bram_lutwave_bot65_0.xci" Type="IP">
+        <Instance HierarchyPath="chan2ts/bot65"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665013827" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_top64_1/bram_lutwave_top64_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts/top64"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014168" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_0_2/bram_lutwave_mux_0_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts/mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014169" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_8/bram_lutwave_c_counter_binary_0_8.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bot65_1/bram_lutwave_bot65_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts/bot65"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014169" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_top64_2/bram_lutwave_top64_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts1/top64"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014169" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_0_3/bram_lutwave_mux_0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts1/mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014169" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_9/bram_lutwave_c_counter_binary_0_9.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts1/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bot65_2/bram_lutwave_bot65_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3ts1/bot65"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014169" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_concat_1/bram_lutwave_accum_concat_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/accum_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_1_4/bram_lutwave_xlslice_1_4.xci" Type="IP">
+        <Instance HierarchyPath="chan3/xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_2_7/bram_lutwave_xlslice_2_7.xci" Type="IP">
+        <Instance HierarchyPath="chan3/xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dds_shift_slice_1/bram_lutwave_dds_shift_slice_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/dds_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_3/bram_lutwave_ddc_concat_3.xci" Type="IP">
+        <Instance HierarchyPath="chan3/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_load_bins_slice_5/bram_lutwave_load_bins_slice_5.xci" Type="IP">
+        <Instance HierarchyPath="chan3/load_bins_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_wide_ctrl_1/bram_lutwave_axi_wide_ctrl_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/axi_wide_ctrl"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_concat_2/bram_lutwave_fft_concat_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/fft_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_shift_slice_1/bram_lutwave_fft_shift_slice_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/fft_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bin_num_slice_1/bram_lutwave_bin_num_slice_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/bin_num_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dsp_regs_0_2/bram_lutwave_dsp_regs_0_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/dsp_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_9/bram_lutwave_i0_9.xci" Type="IP">
+        <Instance HierarchyPath="chan3/q_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_10/bram_lutwave_i1_10.xci" Type="IP">
+        <Instance HierarchyPath="chan3/q_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_len_1/bram_lutwave_accum_len_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/accum_sync/accum_len"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_rst_1/bram_lutwave_accum_rst_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/accum_sync/accum_rst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_sync_in_1/bram_lutwave_sync_in_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/accum_sync/sync_in"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_10/bram_lutwave_i0_10.xci" Type="IP">
+        <Instance HierarchyPath="chan3/i_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_11/bram_lutwave_i1_11.xci" Type="IP">
+        <Instance HierarchyPath="chan3/i_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_ctrl_0_13/bram_lutwave_axi_bram_ctrl_0_13.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/axi_bram_ctrl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110511" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_16/bram_lutwave_xlconstant_1_16.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_2_6/bram_lutwave_xlconstant_2_6.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_12/bram_lutwave_blk_mem_gen_0_12.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110511" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_5/bram_lutwave_bool_false_5.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/bool_false"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_true_1_1/bram_lutwave_bool_true_1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/bool_true_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_0_3/bram_lutwave_mux_4port_0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/mux_4port_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_adc_concat_1/bram_lutwave_adc_concat_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/adc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_1_3/bram_lutwave_bool_false_1_3.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/bool_false_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_pfb_concat_2/bram_lutwave_pfb_concat_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/pfb_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_2_1/bram_lutwave_bool_false_2_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/bool_false_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_4/bram_lutwave_ddc_concat_4.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_3_1/bram_lutwave_bool_false_3_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/bool_false_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_0_11/bram_lutwave_mymux_0_11.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/mymux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_mealy_x16_w_0_2/bram_lutwave_axi_bram_mealy_x16_w_0_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/axi_bram_mealy_x16_w_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_1_1/bram_lutwave_mux_4port_1_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/wide_bram/mux_4port_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_dphi_bram_1/bram_lutwave_axi_dphi_bram_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/axi_dphi_bram"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_13/bram_lutwave_blk_mem_gen_0_13.xci" Type="IP">
+        <Instance HierarchyPath="chan3/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_10/bram_lutwave_c_counter_binary_0_10.xci" Type="IP">
+        <Instance HierarchyPath="chan3/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_5_4/bram_lutwave_xlconstant_5_4.xci" Type="IP">
+        <Instance HierarchyPath="chan3/xlconstant_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_even_bin_slice_2/bram_lutwave_even_bin_slice_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/even_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_odd_bin_slice_1/bram_lutwave_odd_bin_slice_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/odd_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_6_2/bram_lutwave_xlconstant_6_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/xlconstant_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_7_1/bram_lutwave_xlconstant_7_1.xci" Type="IP">
+        <Instance HierarchyPath="chan3/xlconstant_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014301" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blast_module_v6_cord_0_2/bram_lutwave_blast_module_v6_cord_0_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/blast_module_v6_cord_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_2/bram_lutwave_c_shift_ram_0_2.xci" Type="IP">
+        <Instance HierarchyPath="chan3/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_concat_2/bram_lutwave_accum_concat_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/accum_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_1_5/bram_lutwave_xlslice_1_5.xci" Type="IP">
+        <Instance HierarchyPath="chan4/xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlslice_2_8/bram_lutwave_xlslice_2_8.xci" Type="IP">
+        <Instance HierarchyPath="chan4/xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dds_shift_slice_2/bram_lutwave_dds_shift_slice_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/dds_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_5/bram_lutwave_ddc_concat_5.xci" Type="IP">
+        <Instance HierarchyPath="chan4/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_load_bins_slice_6/bram_lutwave_load_bins_slice_6.xci" Type="IP">
+        <Instance HierarchyPath="chan4/load_bins_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_wide_ctrl_2/bram_lutwave_axi_wide_ctrl_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/axi_wide_ctrl"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_concat_3/bram_lutwave_fft_concat_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/fft_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_fft_shift_slice_2/bram_lutwave_fft_shift_slice_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/fft_shift_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bin_num_slice_2/bram_lutwave_bin_num_slice_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/bin_num_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_dsp_regs_0_3/bram_lutwave_dsp_regs_0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/dsp_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_11/bram_lutwave_i0_11.xci" Type="IP">
+        <Instance HierarchyPath="chan4/q_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_12/bram_lutwave_i1_12.xci" Type="IP">
+        <Instance HierarchyPath="chan4/q_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_len_2/bram_lutwave_accum_len_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/accum_sync/accum_len"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_accum_rst_2/bram_lutwave_accum_rst_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/accum_sync/accum_rst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_sync_in_2/bram_lutwave_sync_in_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/accum_sync/sync_in"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i0_12/bram_lutwave_i0_12.xci" Type="IP">
+        <Instance HierarchyPath="chan4/i_adc_splitter/i0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_i1_13/bram_lutwave_i1_13.xci" Type="IP">
+        <Instance HierarchyPath="chan4/i_adc_splitter/i1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_ctrl_0_14/bram_lutwave_axi_bram_ctrl_0_14.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/axi_bram_ctrl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110511" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_17/bram_lutwave_xlconstant_1_17.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_2_7/bram_lutwave_xlconstant_2_7.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_14/bram_lutwave_blk_mem_gen_0_14.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665110511" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_6/bram_lutwave_bool_false_6.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/bool_false"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_true_1_2/bram_lutwave_bool_true_1_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/bool_true_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_0_4/bram_lutwave_mux_4port_0_4.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/mux_4port_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_adc_concat_2/bram_lutwave_adc_concat_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/adc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014884" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_1_4/bram_lutwave_bool_false_1_4.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/bool_false_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_pfb_concat_3/bram_lutwave_pfb_concat_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/pfb_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_2_2/bram_lutwave_bool_false_2_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/bool_false_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ddc_concat_6/bram_lutwave_ddc_concat_6.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/ddc_concat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_bool_false_3_2/bram_lutwave_bool_false_3_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/bool_false_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mymux_0_12/bram_lutwave_mymux_0_12.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/mymux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_bram_mealy_x16_w_0_3/bram_lutwave_axi_bram_mealy_x16_w_0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/axi_bram_mealy_x16_w_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_mux_4port_1_2/bram_lutwave_mux_4port_1_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/wide_bram/mux_4port_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_axi_dphi_bram_2/bram_lutwave_axi_dphi_bram_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/axi_dphi_bram"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_15/bram_lutwave_blk_mem_gen_0_15.xci" Type="IP">
+        <Instance HierarchyPath="chan4/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_counter_binary_0_11/bram_lutwave_c_counter_binary_0_11.xci" Type="IP">
+        <Instance HierarchyPath="chan4/c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_5_5/bram_lutwave_xlconstant_5_5.xci" Type="IP">
+        <Instance HierarchyPath="chan4/xlconstant_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_even_bin_slice_3/bram_lutwave_even_bin_slice_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/even_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_odd_bin_slice_2/bram_lutwave_odd_bin_slice_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/odd_bin_slice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_6_3/bram_lutwave_xlconstant_6_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/xlconstant_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_7_2/bram_lutwave_xlconstant_7_2.xci" Type="IP">
+        <Instance HierarchyPath="chan4/xlconstant_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665014885" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blast_module_v6_cord_0_3/bram_lutwave_blast_module_v6_cord_0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/blast_module_v6_cord_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_3/bram_lutwave_c_shift_ram_0_3.xci" Type="IP">
+        <Instance HierarchyPath="chan4/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1665015614" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ethernet_top_2_0_0/bram_lutwave_ethernet_top_2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/ethernet_top_2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_buffer_0_0/bram_lutwave_eth_buffer_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/eth_buffer_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_16/bram_lutwave_blk_mem_gen_0_16.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_regs_0_0/bram_lutwave_eth_regs_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/eth_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_xlconstant_1_18/bram_lutwave_xlconstant_1_18.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/w_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_max_count_0/bram_lutwave_max_count_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/r_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_clk_wiz_0_1/bram_lutwave_clk_wiz_0_1.xci" Type="IP">
+        <Instance HierarchyPath="clk_wiz_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_buffer_0_1/bram_lutwave_eth_buffer_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/eth_buffer_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_w_max_count_0/bram_lutwave_w_max_count_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/w_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_17/bram_lutwave_blk_mem_gen_0_17.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_r_max_count_0/bram_lutwave_r_max_count_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/r_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_regs_0_1/bram_lutwave_eth_regs_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/eth_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ethernet_top_2_0_1/bram_lutwave_ethernet_top_2_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/ethernet_top_2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_buffer_0_2/bram_lutwave_eth_buffer_0_2.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/eth_buffer_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_w_max_count_1/bram_lutwave_w_max_count_1.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/w_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_18/bram_lutwave_blk_mem_gen_0_18.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_r_max_count_1/bram_lutwave_r_max_count_1.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/r_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_regs_0_2/bram_lutwave_eth_regs_0_2.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/eth_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ethernet_top_2_0_2/bram_lutwave_ethernet_top_2_0_2.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/ethernet_top_2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_buffer_0_3/bram_lutwave_eth_buffer_0_3.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/eth_buffer_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_w_max_count_2/bram_lutwave_w_max_count_2.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/w_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_blk_mem_gen_0_19/bram_lutwave_blk_mem_gen_0_19.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_r_max_count_2/bram_lutwave_r_max_count_2.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/r_max_count"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_eth_regs_0_3/bram_lutwave_eth_regs_0_3.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/eth_regs_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_ethernet_top_2_0_3/bram_lutwave_ethernet_top_2_0_3.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/ethernet_top_2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_accum_0_0/bram_lutwave_c_accum_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/c_accum_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_accum_0_1/bram_lutwave_c_accum_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/c_accum_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth/bram_lutwave.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="sim/bram_lutwave.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_6/bram_lutwave_c_shift_ram_0_6.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_accum_0_2/bram_lutwave_c_accum_0_2.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort1/c_accum_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_5/bram_lutwave_c_shift_ram_0_5.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort2/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_4/bram_lutwave_c_shift_ram_0_4.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort3/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_shift_ram_0_7/bram_lutwave_c_shift_ram_0_7.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/c_shift_ram_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_c_accum_0_3/bram_lutwave_c_accum_0_3.xci" Type="IP">
+        <Instance HierarchyPath="ethWrapPort0/c_accum_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_0/bram_lutwave_auto_cc_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_0/bram_lutwave_auto_ds_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m00_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_0/bram_lutwave_auto_pc_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_1/bram_lutwave_auto_cc_1.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m01_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_1/bram_lutwave_auto_ds_1.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m01_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_1/bram_lutwave_auto_pc_1.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m01_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_2/bram_lutwave_auto_cc_2.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m02_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_3/bram_lutwave_auto_cc_3.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m03_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_2/bram_lutwave_auto_ds_2.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m03_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_2/bram_lutwave_auto_pc_2.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m03_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_4/bram_lutwave_auto_cc_4.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m04_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_3/bram_lutwave_auto_ds_3.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m04_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_3/bram_lutwave_auto_pc_3.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m04_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_5/bram_lutwave_auto_cc_5.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m05_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_4/bram_lutwave_auto_ds_4.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m05_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_4/bram_lutwave_auto_pc_4.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m05_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_6/bram_lutwave_auto_cc_6.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m06_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_5/bram_lutwave_auto_ds_5.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m06_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_5/bram_lutwave_auto_pc_5.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph2/m06_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_us_0/bram_lutwave_auto_us_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/s00_couplers/auto_us"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_us_1/bram_lutwave_auto_us_1.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/s01_couplers/auto_us"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_7/bram_lutwave_auto_cc_7.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_6/bram_lutwave_auto_ds_6.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m00_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_7/bram_lutwave_auto_ds_7.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m01_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_6/bram_lutwave_auto_pc_6.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m01_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_8/bram_lutwave_auto_ds_8.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m02_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_7/bram_lutwave_auto_pc_7.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m02_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_8/bram_lutwave_auto_cc_8.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m03_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_9/bram_lutwave_auto_ds_9.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m03_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_9/bram_lutwave_auto_cc_9.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m04_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_10/bram_lutwave_auto_cc_10.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m05_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_10/bram_lutwave_auto_ds_10.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m05_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_8/bram_lutwave_auto_pc_8.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m05_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_11/bram_lutwave_auto_cc_11.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m06_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_11/bram_lutwave_auto_ds_11.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m06_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_12/bram_lutwave_auto_cc_12.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m07_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_12/bram_lutwave_auto_ds_12.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m07_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_13/bram_lutwave_auto_ds_13.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m08_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_9/bram_lutwave_auto_pc_9.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m08_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_13/bram_lutwave_auto_cc_13.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m09_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_14/bram_lutwave_auto_ds_14.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m09_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_10/bram_lutwave_auto_pc_10.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m09_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_15/bram_lutwave_auto_ds_15.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m10_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_11/bram_lutwave_auto_pc_11.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m10_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_14/bram_lutwave_auto_cc_14.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m11_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_16/bram_lutwave_auto_ds_16.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m11_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_12/bram_lutwave_auto_pc_12.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m11_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_15/bram_lutwave_auto_cc_15.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m12_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_17/bram_lutwave_auto_ds_17.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m12_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_16/bram_lutwave_auto_cc_16.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m13_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_18/bram_lutwave_auto_ds_18.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m13_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_cc_17/bram_lutwave_auto_cc_17.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m14_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_19/bram_lutwave_auto_ds_19.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m14_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_ds_20/bram_lutwave_auto_ds_20.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m15_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/bram_lutwave_auto_pc_13/bram_lutwave_auto_pc_13.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph1/m15_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="bram_lutwave_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff/bram_lutwave.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="bram_lutwave.bda">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff/bram_lutwave_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth/bram_lutwave.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="sim/bram_lutwave.protoinst">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

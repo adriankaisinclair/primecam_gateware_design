@@ -1,0 +1,47 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 280 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 610 -defaultsOSRD
+preplace port led_0 -pg 1 -y 720 -defaultsOSRD
+preplace port led_1 -pg 1 -y 310 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -y 200 -defaultsOSRD
+preplace port d1 -pg 1 -y 710 -defaultsOSRD
+preplace port d2 -pg 1 -y 730 -defaultsOSRD
+preplace port clka -pg 1 -y 240 -defaultsOSRD
+preplace port clkb -pg 1 -y 260 -defaultsOSRD
+preplace portBus r_addr -pg 1 -y 630 -defaultsOSRD
+preplace portBus dina -pg 1 -y 110 -defaultsOSRD
+preplace portBus dina1 -pg 1 -y 430 -defaultsOSRD
+preplace portBus CE -pg 1 -y 700 -defaultsOSRD
+preplace inst adc_mem_control_logic -pg 1 -lvl 1 -y 670 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 2 -y 470 -defaultsOSRD
+preplace inst adc_mem_control_logic1 -pg 1 -lvl 1 -y 260 -defaultsOSRD
+preplace inst blk_mem_gen_2 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace netloc ps8_0_axi_periph_M04_AXI 1 0 1 NJ
+preplace netloc adc_mem_control_logic_Res 1 1 2 NJ 700 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 20 380 370
+preplace netloc blk_mem_gen_1_doutb 1 0 2 40 550 NJ
+preplace netloc ryans_MMIO_interface_0_r_enb 1 1 1 340
+preplace netloc adc_mem_control_logic_regA 1 1 2 NJ 720 NJ
+preplace netloc blk_mem_gen_2_doutb 1 0 2 30 140 350J
+preplace netloc ps8_0_axi_periph_M03_AXI 1 0 1 NJ
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 1 10
+preplace netloc c_counter_binary_0_Q 1 1 2 380 630 NJ
+preplace netloc usp_rf_data_converter_0_m03_axis_tdata 1 0 2 NJ 110 NJ
+preplace netloc ryans_MMIO_interface_0_enb 1 1 1 400
+preplace netloc clk_wiz_0_clk_out1 1 0 2 30 370 360
+preplace netloc adc_mem_control_logic1_w_addr 1 1 1 340
+preplace netloc usp_rf_data_converter_0_s12_axis_tready 1 0 1 NJ
+preplace netloc usp_rf_data_converter_0_m02_axis_tvalid 1 0 1 NJ
+preplace netloc adc_mem_control_logic1_regA 1 1 2 NJ 310 NJ
+preplace netloc ryans_MMIO_interface_0_addr_b 1 1 1 390
+preplace netloc adc_mem_control_logic1_ena 1 1 1 330
+preplace netloc usp_rf_data_converter_0_m02_axis_tdata 1 0 2 NJ 430 NJ
+preplace netloc adc_mem_control_logic1_enb 1 1 1 N
+preplace netloc adc_mem_control_logic1_r_addr 1 1 1 320
+levelinfo -pg 1 -10 180 510 640 -top -10 -bot 780
+"
+}
+0

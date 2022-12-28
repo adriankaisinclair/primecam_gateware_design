@@ -1,0 +1,37 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 320 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 50 -defaultsOSRD
+preplace port CLK -pg 1 -y 110 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -y 280 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -y 300 -defaultsOSRD
+preplace portBus addra -pg 1 -y 90 -defaultsOSRD
+preplace portBus ena -pg 1 -y 390 -defaultsOSRD
+preplace portBus data -pg 1 -y 230 -defaultsOSRD
+preplace portBus wea -pg 1 -y 290 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -y 290 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst bram_interface_0 -pg 1 -lvl 1 -y 300 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 2 -y 210 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace inst AXI_mux_0 -pg 1 -lvl 3 -y 90 -defaultsOSRD
+preplace netloc Conn1 1 0 1 NJ
+preplace netloc bram_interface_0_reg_offset_8 1 1 2 NJ 290 NJ
+preplace netloc xlslice_1_Dout 1 3 1 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 30 40 NJ 40 700
+preplace netloc AXI_mux_0_Z 1 3 1 NJ
+preplace netloc bram_interface_0_reg_offset_0 1 1 1 470J
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 3 20 30 NJ 30 710
+preplace netloc ps8_0_axi_periph_M01_AXI 1 0 3 NJ 50 NJ 50 NJ
+preplace netloc c_counter_binary_0_Q 1 2 1 690J
+preplace netloc clk_wiz_0_clk_out1 1 0 2 NJ 110 NJ
+preplace netloc xlslice_2_Dout 1 2 1 720
+preplace netloc bram_interface_0_reg_offset_4 1 1 3 NJ 270 700J 230 NJ
+preplace netloc bram_interface_0_reg_offset_12 1 1 2 470J 390 NJ
+preplace netloc xlslice_0_Dout 1 3 1 NJ
+levelinfo -pg 1 0 250 580 850 990 -top -10 -bot 450
+"
+}
+

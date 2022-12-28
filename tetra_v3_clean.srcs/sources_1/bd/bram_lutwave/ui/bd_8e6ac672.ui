@@ -1,0 +1,33 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 270 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 50 -defaultsOSRD
+preplace port CLK -pg 1 -y 400 -defaultsOSRD
+preplace port ena -pg 1 -y 90 -defaultsOSRD
+preplace port enb -pg 1 -y 110 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -y 250 -defaultsOSRD
+preplace portBus r_addr -pg 1 -y 340 -defaultsOSRD
+preplace portBus w_addr -pg 1 -y 250 -defaultsOSRD
+preplace portBus data -pg 1 -y 230 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 3 -y 420 -defaultsOSRD
+preplace inst ryans_MMIO_interface_0 -pg 1 -lvl 3 -y 160 -defaultsOSRD
+preplace inst cmp2_0 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst scrts_0 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace netloc Conn1 1 0 3 0J 30 NJ 30 390J
+preplace netloc blk_mem_gen_1_doutb 1 0 3 NJ 230 NJ 230 NJ
+preplace netloc ryans_MMIO_interface_0_r_enb 1 3 1 NJ
+preplace netloc ryans_MMIO_interface_0_sclr 1 2 2 390 330 650
+preplace netloc c_counter_binary_0_Q 1 0 4 0 390 NJ 390 380J 500 650
+preplace netloc ryans_MMIO_interface_0_enb 1 3 1 NJ
+preplace netloc cmp2_0_Q1 1 1 2 230 420 NJ
+preplace netloc s00_axi_aclk_1 1 0 3 NJ 250 NJ 250 NJ
+preplace netloc clk_wiz_0_clk_out2 1 0 3 NJ 400 NJ 400 NJ
+preplace netloc scrts_0_b 1 2 1 390
+preplace netloc s00_axi_aresetn_1 1 0 3 NJ 270 NJ 270 NJ
+preplace netloc ryans_MMIO_interface_0_addr_b 1 3 1 NJ
+levelinfo -pg 1 -20 120 310 520 670 -top -10 -bot 520
+"
+}
+

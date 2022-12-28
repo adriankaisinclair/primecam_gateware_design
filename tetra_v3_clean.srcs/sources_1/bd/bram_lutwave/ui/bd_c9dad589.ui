@@ -1,0 +1,49 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port sw -pg 1 -y 160 -defaultsOSRD
+preplace port user_data_ready -pg 1 -y 240 -defaultsOSRD
+preplace port eth_clk -pg 1 -y 400 -defaultsOSRD
+preplace port Q1 -pg 1 -y -60 -defaultsOSRD
+preplace port lc_Q_bar -pg 1 -y -40 -defaultsOSRD
+preplace port pulse -pg 1 -y -20 -defaultsOSRD
+preplace port usr_start_eth -pg 1 -y 70 -defaultsOSRD
+preplace port ddc_start -pg 1 -y 180 -defaultsOSRD
+preplace port lc_Q -pg 1 -y -80 -defaultsOSRD
+preplace port eth_done_0 -pg 1 -y 470 -defaultsOSRD
+preplace port data_clk -pg 1 -y 120 -defaultsOSRD
+preplace portBus usr_data -pg 1 -y 380 -defaultsOSRD
+preplace portBus Q -pg 1 -y 0 -defaultsOSRD
+preplace portBus TXD_DATA -pg 1 -y 200 -defaultsOSRD
+preplace inst byte_slice_0 -pg 1 -lvl 5 -y 200 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -y 140 -defaultsOSRD -resize 194 93
+preplace inst last_count_0 -pg 1 -lvl 3 -y 180 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 5 -y 420 -defaultsOSRD
+preplace inst redge_pulse_0 -pg 1 -lvl 5 -y 70 -defaultsOSRD
+preplace inst stretch_pulse_0 -pg 1 -lvl 1 -y -20 -defaultsOSRD
+preplace inst eth_done_pulse_0 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst UBC_sync_0 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst eth_UBC_sync_0 -pg 1 -lvl 4 -y 210 -defaultsOSRD
+preplace netloc eth_done_0_1 1 0 1 NJ
+preplace netloc eth_UBC_sync_0_byte_count 1 4 1 N
+preplace netloc dina_0_1 1 0 5 NJ 380 NJ 380 NJ 380 NJ 380 NJ
+preplace netloc eth_UBC_sync_0_Q 1 4 1 1100
+preplace netloc last_count_0_Q_bar 1 1 5 290 50 NJ 50 820 40 1140 -40 N
+preplace netloc UBC_sync_0_Q 1 2 4 520 110 NJ 110 1150J 0 N
+preplace netloc util_vector_logic_0_Res 1 1 1 N
+preplace netloc stretch_pulse_0_Q 1 1 5 260 -60 N -60 N -60 N -60 N
+preplace netloc start_1_1 1 0 4 NJ 240 NJ 240 520J 250 820J
+preplace netloc clk1_1 1 0 5 -40J 60 250 60 NJ 60 NJ 60 1110J
+preplace netloc eth_done_pulse_0_pulse 1 0 6 0 70 270 -20 N -20 N -20 N -20 N
+preplace netloc clk_1 1 0 5 -10 50 280J 40 NJ 40 810 50 1120
+preplace netloc sw_1 1 0 1 -20
+preplace netloc blk_mem_gen_0_doutb 1 4 1 1160
+preplace netloc last_count_0_Q 1 3 3 830 120 1130 -80 N
+preplace netloc start_0_1 1 0 1 -30J
+preplace netloc byte_slice_0_Q 1 5 1 NJ
+preplace netloc redge_pulse_0_Q 1 5 1 NJ
+levelinfo -pg 1 -60 130 420 680 970 1270 1400 -top -100 -bot 580
+"
+}
+0

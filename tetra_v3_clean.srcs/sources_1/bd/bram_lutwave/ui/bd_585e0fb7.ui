@@ -1,0 +1,29 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s_axi_aclk -pg 1 -y 150 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 170 -defaultsOSRD
+preplace port UBC_clk -pg 1 -y 280 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 130 -defaultsOSRD
+preplace port enb -pg 1 -y 300 -defaultsOSRD
+preplace portBus Q -pg 1 -y 240 -defaultsOSRD
+preplace portBus addrb -pg 1 -y 20 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace inst Q_table -pg 1 -lvl 2 -y 160 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -y -80 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 1 1 360
+preplace netloc UBC_clk_1 1 0 2 NJ 280 380J
+preplace netloc s_axi_aclk_1 1 0 1 0J
+preplace netloc addrb_1 1 0 2 -20J -210 400J
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 370
+preplace netloc xlconstant_0_dout 1 1 1 370
+preplace netloc S00_AXI_1 1 0 1 -10J
+preplace netloc enb_1 1 0 2 NJ 300 390J
+preplace netloc s00_axi_aresetn_1 1 0 1 10J
+preplace netloc blk_mem_gen_0_doutb 1 1 2 400 300 660J
+levelinfo -pg 1 -40 190 530 680 -top -230 -bot 420
+"
+}
+0

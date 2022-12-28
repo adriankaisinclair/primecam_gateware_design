@@ -1,0 +1,163 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S00_AXI6 -pg 1 -y 910 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 930 -defaultsOSRD
+preplace port S00_AXI7 -pg 1 -y 1270 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 400 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -y 60 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -y 230 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -y 570 -defaultsOSRD
+preplace port clka -pg 1 -y 610 -defaultsOSRD
+preplace port S00_AXI4 -pg 1 -y 1080 -defaultsOSRD
+preplace port clkb -pg 1 -y 590 -defaultsOSRD
+preplace port S00_AXI5 -pg 1 -y 740 -defaultsOSRD
+preplace portBus count_0 -pg 1 -y 1210 -defaultsOSRD
+preplace portBus dout -pg 1 -y 610 -defaultsOSRD
+preplace inst dac_i8i9|BRAM_SNAP_0 -pg 1 -lvl 1 -y 2490 -defaultsOSRD
+preplace inst dac_i4i5|util_vector_logic_0 -pg 1 -lvl 2 -y 670 -defaultsOSRD
+preplace inst dac_i4i5|BRAM_SNAP_0 -pg 1 -lvl 1 -y 540 -defaultsOSRD
+preplace inst dac_i12i13|BRAM_SNAP_0 -pg 1 -lvl 1 -y 2100 -defaultsOSRD
+preplace inst dac_i0i1 -pg 1 -lvl 1 -y 870 -defaultsOSRD
+preplace inst dac_i8i9 -pg 1 -lvl 1 -y 2430 -defaultsOSRD
+preplace inst dac_i0i1|BRAM_SNAP_0 -pg 1 -lvl 1 -y 930 -defaultsOSRD
+preplace inst dac_i12i13|util_vector_logic_0 -pg 1 -lvl 2 -y 2230 -defaultsOSRD
+preplace inst dac_i6i7 -pg 1 -lvl 1 -y 1260 -defaultsOSRD
+preplace inst dac_i0i1|util_vector_logic_0 -pg 1 -lvl 2 -y 1060 -defaultsOSRD
+preplace inst dac_i12i13|blk_mem_gen_0 -pg 1 -lvl 3 -y 2130 -defaultsOSRD
+preplace inst dac_i10i11 -pg 1 -lvl 1 -y 1650 -defaultsOSRD
+preplace inst dac_i10i11|util_vector_logic_0 -pg 1 -lvl 2 -y 1840 -defaultsOSRD
+preplace inst dac_i2i3|BRAM_SNAP_0 -pg 1 -lvl 1 -y 150 -defaultsOSRD
+preplace inst dac_i10i11|BRAM_SNAP_0 -pg 1 -lvl 1 -y 1710 -defaultsOSRD
+preplace inst dac_i6i7|blk_mem_gen_0 -pg 1 -lvl 3 -y 1350 -defaultsOSRD
+preplace inst dac_i2i3|blk_mem_gen_0 -pg 1 -lvl 3 -y 180 -defaultsOSRD
+preplace inst dac_i8i9|util_vector_logic_0 -pg 1 -lvl 2 -y 2620 -defaultsOSRD
+preplace inst dac_i10i11|blk_mem_gen_0 -pg 1 -lvl 3 -y 1740 -defaultsOSRD
+preplace inst dac_i12i13 -pg 1 -lvl 1 -y 2040 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 2 -y 610 -defaultsOSRD
+preplace inst dac_i14i15|blk_mem_gen_0 -pg 1 -lvl 3 -y 2964 -defaultsOSRD
+preplace inst dac_i4i5 -pg 1 -lvl 1 -y 480 -defaultsOSRD
+preplace inst dac_i4i5|blk_mem_gen_0 -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst dac_i0i1|blk_mem_gen_0 -pg 1 -lvl 3 -y 960 -defaultsOSRD
+preplace inst dac_i8i9|blk_mem_gen_0 -pg 1 -lvl 3 -y 2520 -defaultsOSRD
+preplace inst dac_i14i15|util_vector_logic_0 -pg 1 -lvl 2 -y 3064 -defaultsOSRD
+preplace inst dac_i2i3 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst dac_i6i7|BRAM_SNAP_0 -pg 1 -lvl 1 -y 1320 -defaultsOSRD
+preplace inst dac_i6i7|util_vector_logic_0 -pg 1 -lvl 2 -y 1450 -defaultsOSRD
+preplace inst dac_i2i3|util_vector_logic_0 -pg 1 -lvl 2 -y 280 -defaultsOSRD
+preplace inst dac_i14i15|BRAM_SNAP_0 -pg 1 -lvl 1 -y 2934 -defaultsOSRD
+preplace inst dac_i14i15 -pg 1 -lvl 1 -y 2824 -defaultsOSRD
+preplace netloc dac_i4i5|blk_mem_gen_0_doutb 1 2 2 700 730 NJ
+preplace netloc dac_i6i7|BRAM_SNAP_0_write 1 1 2 NJ 1290 690
+preplace netloc dac_i14i15|util_vector_logic_0_Res 1 2 1 N
+preplace netloc S00_AXI5_1 1 0 1 -110J
+preplace netloc dac_i10i11|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 1600 NJ 1600 710
+preplace netloc dac_i10i14_doutb 1 1 1 1120
+preplace netloc dac_i12i13_count_0 1 0 3 -50 -10 1140 1210 NJ
+preplace netloc dac_i2i3|BRAM_SNAP_0_write 1 1 2 NJ 120 690
+preplace netloc dac_i10i11|util_vector_logic_0_Res 1 2 1 N
+preplace netloc dac_i4i5|BRAM_SNAPII_0_inB 1 1 2 380 550 710
+preplace netloc S00_AXI1_1 1 0 1 -60J
+preplace netloc dac_i0i1|S00_AXI_1 1 0 1 N
+preplace netloc dac_i0i1|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 820 NJ 820 710
+preplace netloc dac_i8i9|count_1_1 1 0 3 NJ 2700 390J 2560 N
+preplace netloc dac_i6i7|clk_wiz_0_clk_out1 1 0 3 110 1200 NJ 1200 700
+preplace netloc dac_i12i13|BRAM_SNAP_0_gpo 1 1 2 NJ 2050 N
+preplace netloc dac_i12i13|count_1_1 1 0 3 NJ 2310 390J 2170 N
+preplace netloc dac_i4i5|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 430 NJ 430 710
+preplace netloc dac_i6i7|BRAM_SNAPII_0_inB 1 1 2 380 1330 710
+preplace netloc dac_i12i13|clk_wiz_0_clk_out1 1 0 3 110 1980 NJ 1980 700
+preplace netloc dac_i10i11|S00_AXI_1 1 0 1 N
+preplace netloc dac_i14i15|clk_wiz_0_clk_out1 1 0 3 110 2814 NJ 2814 690
+preplace netloc dac_i4i5|clk_wiz_0_clk_out1 1 0 3 110 420 NJ 420 700
+preplace netloc dac_i10i11|blk_mem_gen_0_doutb 1 2 2 700 1900 NJ
+preplace netloc dac_i14i15|S00_AXI_1 1 0 1 N
+preplace netloc dac_i14i15|BRAM_SNAP_0_count 1 1 3 NJ 2964 720 2804 NJ
+preplace netloc dac_i8i9|BRAM_SNAPII_0_inB 1 1 2 380 2500 710
+preplace netloc dac_i14i15|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i10i12_doutb 1 1 1 1160
+preplace netloc dac_i0i1|BRAM_SNAPII_0_inB 1 1 2 380 940 710
+preplace netloc dac_i2i3|blk_mem_gen_0_doutb 1 2 2 700 340 NJ
+preplace netloc dac_i2i3|util_vector_logic_0_Res 1 2 1 N
+preplace netloc dac_i0i1|BRAM_SNAP_0_gpo 1 1 2 NJ 880 N
+preplace netloc dac_i8i9|BRAM_SNAP_0_gpo 1 1 2 NJ 2440 N
+preplace netloc dac_i14i15|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 2824 NJ 2824 710
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 1 -140
+preplace netloc dac_i10i11|count_1_1 1 0 3 NJ 1920 390J 1780 N
+preplace netloc dac_i14i15|BRAM_SNAP_0_write 1 1 2 NJ 2904 700
+preplace netloc dac_i12i14_doutb 1 1 1 1130
+preplace netloc dac_i2i3|count_1_1 1 0 3 NJ 360 390J 220 N
+preplace netloc dac_i2i3|S00_AXI_1 1 0 1 N
+preplace netloc dac_i0i1|BRAM_SNAP_0_write 1 1 2 NJ 900 690
+preplace netloc dac_i12i13|S00_AXI_1 1 0 1 N
+preplace netloc dac_i0i1|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i6i7|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 1210 NJ 1210 710
+preplace netloc dac_i12i13_doutb 1 1 1 1180
+preplace netloc dac_i8i9|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i0i1|util_vector_logic_0_Res 1 2 1 N
+preplace netloc dac_i8i9|clk_wiz_0_clk_out1 1 0 3 110 2370 NJ 2370 700
+preplace netloc dac_i10i11|BRAM_SNAP_0_gpo 1 1 2 NJ 1660 N
+preplace netloc dac_i8i9|blk_mem_gen_0_doutb 1 2 2 700 2680 NJ
+preplace netloc dac_i8i9|S00_AXI_1 1 0 1 N
+preplace netloc dac_i10i11_doutb 1 1 1 1150
+preplace netloc S00_AXI3_1 1 0 1 -80J
+preplace netloc dac_i6i7|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i8i9|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 2380 NJ 2380 710
+preplace netloc dac_i12i13|util_vector_logic_0_Res 1 2 1 N
+preplace netloc dac_i6i7|S00_AXI_1 1 0 1 N
+preplace netloc dac_i0i1|blk_mem_gen_0_doutb 1 2 2 700 1120 NJ
+preplace netloc dac_i10i11|clk_wiz_0_clk_out1 1 0 3 110 1590 NJ 1590 700
+preplace netloc dac_i10i11|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i14i15|BRAM_SNAPII_0_inB 1 1 2 380 2944 730
+preplace netloc dac_i14i16_doutb 1 1 1 1120
+preplace netloc dac_i12i13|BRAM_SNAPII_0_inB 1 1 2 380 2110 710
+preplace netloc S00_AXI7_1 1 0 1 -150J
+preplace netloc dac_i6i7|util_vector_logic_0_Res 1 2 1 N
+preplace netloc S00_AXI4_1 1 0 1 -130J
+preplace netloc dac_i4i5|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i10i11|BRAM_SNAP_0_write 1 1 2 NJ 1680 690
+preplace netloc dac_i6i7|count_1_1 1 0 3 NJ 1530 390J 1390 N
+preplace netloc dac_i2i3|clk_wiz_0_clk_out1 1 0 3 110 30 NJ 30 700
+preplace netloc S00_AXI2_1 1 0 1 -60J
+preplace netloc dac_i8i9|BRAM_SNAP_0_write 1 1 2 NJ 2460 690
+preplace netloc dac_i4i5|BRAM_SNAP_0_write 1 1 2 NJ 510 690
+preplace netloc dac_i12i13|BRAM_SNAP_0_write 1 1 2 NJ 2070 690
+preplace netloc dac_i4i5|S00_AXI_1 1 0 1 N
+preplace netloc dac_i10i11|BRAM_SNAPII_0_inB 1 1 2 380 1720 710
+preplace netloc dac_i4i5|util_vector_logic_0_Res 1 2 1 N
+preplace netloc dac_i6i7|blk_mem_gen_0_doutb 1 2 2 700 1510 NJ
+preplace netloc dac_i2i3|BRAM_SNAP_0_gpo 1 1 2 NJ 100 N
+preplace netloc dac_i0i1|count_1_1 1 0 3 NJ 1140 390J 1000 N
+preplace netloc dac_i8i9|util_vector_logic_0_Res 1 2 1 N
+preplace netloc dac_i12i13_doutb1 1 1 1 1170
+preplace netloc dac_i12i13|blk_mem_gen_0_doutb 1 2 2 700 2290 NJ
+preplace netloc dac_i4i5|count_1_1 1 0 3 NJ 750 390J 610 N
+preplace netloc clk_wiz_0_clk_out1 1 0 1 -100
+preplace netloc xlconcat_3_dout 1 2 1 NJ
+preplace netloc dac_i10i13_doutb 1 1 1 1110
+preplace netloc dac_i2i3|s00_axi_aresetn_1 1 0 1 N
+preplace netloc dac_i2i3|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 40 NJ 40 710
+preplace netloc dac_i14i15|blk_mem_gen_0_doutb 1 2 2 740 2784 NJ
+preplace netloc dac_i4i5|BRAM_SNAP_0_gpo 1 1 2 NJ 490 N
+preplace netloc dac_i2i3|BRAM_SNAPII_0_inB 1 1 2 380 160 710
+preplace netloc dac_i12i13|s00_axi_aresetn_1 1 0 1 N
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 -90
+preplace netloc dac_i6i7|BRAM_SNAP_0_gpo 1 1 2 NJ 1270 N
+preplace netloc dac_i0i1|clk_wiz_0_clk_out1 1 0 3 110 810 NJ 810 700
+preplace netloc S00_AXI6_1 1 0 1 -120J
+preplace netloc S00_AXI_1 1 0 1 -70J
+preplace netloc dac_i14i15|BRAM_SNAP_0_gpo 1 1 2 NJ 2884 N
+preplace netloc dac_i12i13|zynq_ultra_ps_e_0_pl_clk0 1 0 3 120 1990 NJ 1990 710
+levelinfo -pg 1 -170 190 1302 1440 -top -30 -bot 3180
+levelinfo -hier dac_i14i15 * 250 540 850 *
+levelinfo -hier dac_i12i13 * 250 540 830 *
+levelinfo -hier dac_i10i11 * 250 540 830 *
+levelinfo -hier dac_i8i9 * 250 540 830 *
+levelinfo -hier dac_i0i1 * 250 540 830 *
+levelinfo -hier dac_i2i3 * 250 540 830 *
+levelinfo -hier dac_i6i7 * 250 540 830 *
+levelinfo -hier dac_i4i5 * 250 540 830 *
+"
+}
+

@@ -1,0 +1,28 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 140 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 60 -defaultsOSRD
+preplace port clka -pg 1 -y 120 -defaultsOSRD
+preplace port clkb -pg 1 -y 80 -defaultsOSRD
+preplace portBus count_0 -pg 1 -y 20 -defaultsOSRD
+preplace portBus count -pg 1 -y 310 -defaultsOSRD
+preplace portBus doutb -pg 1 -y 430 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -y 390 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 270 -defaultsOSRD
+preplace inst BRAM_SNAP_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace netloc BRAM_SNAP_0_gpo 1 1 2 310 190 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 20 210 NJ 210 NJ
+preplace netloc util_vector_logic_0_Res 1 2 1 610J
+preplace netloc BRAM_SNAP_0_write 1 1 2 300 200 620J
+preplace netloc count_2 1 0 3 NJ 310 NJ 310 NJ
+preplace netloc BRAM_SNAPII_0_inB 1 1 2 290 250 620
+preplace netloc S00_AXI_1 1 0 1 NJ
+preplace netloc clk_wiz_0_clk_out1 1 0 3 30 330 NJ 330 NJ
+preplace netloc s00_axi_aresetn_1 1 0 1 NJ
+preplace netloc blk_mem_gen_0_doutb 1 2 2 620 430 NJ
+levelinfo -pg 1 0 160 460 730 860 -top -10 -bot 450
+"
+}
+

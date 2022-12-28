@@ -1,0 +1,29 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 590 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 230 -defaultsOSRD
+preplace port clka -pg 1 -y 250 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -y 480 -defaultsOSRD
+preplace portBus dina -pg 1 -y 110 -defaultsOSRD
+preplace inst invert -pg 1 -lvl 3 -y 250 -defaultsOSRD
+preplace inst splitter_0 -pg 1 -lvl 1 -y 500 -defaultsOSRD
+preplace inst BRAM_SNAP_0 -pg 1 -lvl 2 -y 270 -defaultsOSRD
+preplace inst I_table -pg 1 -lvl 4 -y 150 -defaultsOSRD
+preplace netloc Conn1 1 0 2 NJ 230 NJ
+preplace netloc BRAM_SNAP_0_gpo 1 2 2 N 190 NJ
+preplace netloc BRAM_SNAP_0_count 1 2 2 570 70 NJ
+preplace netloc usp_rf_data_converter_0_m10_axis_tdata 1 0 4 NJ 110 NJ 110 NJ 110 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 -10 290 270 130 NJ 130 880J
+preplace netloc I_table_doutb 1 0 4 10 100 NJ 100 NJ 100 890
+preplace netloc splitter_0_Q 1 1 1 260
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 2 0J 310 NJ
+preplace netloc BRAM_SNAP_0_vec_in1 1 0 3 20 410 NJ 410 560
+preplace netloc clk_wiz_0_clk_out1 1 0 4 NJ 250 260 90 NJ 90 NJ
+preplace netloc invert_Res 1 3 1 NJ
+preplace netloc Net 1 2 2 580 150 900
+levelinfo -pg 1 -30 140 420 730 1010 1130 -top -10 -bot 610
+"
+}
+
