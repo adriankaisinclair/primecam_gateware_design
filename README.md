@@ -1,5 +1,5 @@
 ## primecam_gateware_design
-Design files for the Prime-Cam instrument's RFSoC based readout for kinetic indutance detectors. For more information about the readout see the conference proceedings https://arxiv.org/pdf/2208.07465.pdf. For more information about Prime-Cam https://www.ccatobservatory.org/
+Design files for the Prime-Cam instrument's RFSoC based readout for kinetic inductance detectors. For more information about the readout see the conference proceeding https://arxiv.org/pdf/2208.07465.pdf. For more information about Prime-Cam https://www.ccatobservatory.org/
 
 Repository table of contents:
 1. tetra_v3_clean.xpr - main Xilinx project file 
