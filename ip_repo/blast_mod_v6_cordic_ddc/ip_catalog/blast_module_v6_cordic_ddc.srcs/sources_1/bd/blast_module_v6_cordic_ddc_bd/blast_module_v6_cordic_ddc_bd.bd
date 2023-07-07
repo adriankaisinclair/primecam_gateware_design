@@ -1,14 +1,14 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x6F4CA412493DB05B",
+      "boundary_crc": "0x87E2709416952F72",
       "design_src": "SYSGEN",
       "device": "xczu28dr-ffvg1517-2-e",
       "gen_directory": "../../../../blast_module_v6_cordic_ddc.gen/sources_1/bd/blast_module_v6_cordic_ddc_bd",
       "name": "blast_module_v6_cordic_ddc_bd",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2020.2",
+      "tool_version": "2021.1",
       "validated": "true"
     },
     "design_tree": {
@@ -30,6 +30,8 @@
       "accum_reset": {
         "type": "rst",
         "direction": "I",
+        "left": "0",
+        "right": "0",
         "parameters": {
           "INSERT_VIP": {
             "value": "0",
@@ -92,6 +94,8 @@
       "accum_snap_sync": {
         "type": "data",
         "direction": "O",
+        "left": "0",
+        "right": "0",
         "parameters": {
           "LAYERED_METADATA": {
             "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}}",
@@ -180,7 +184,7 @@
             "value_src": "default"
           },
           "PHASE": {
-            "value": "0.000",
+            "value": "0.0",
             "value_src": "default"
           }
         }
@@ -212,6 +216,8 @@
       "ddc_snap_sync": {
         "type": "data",
         "direction": "O",
+        "left": "0",
+        "right": "0",
         "parameters": {
           "LAYERED_METADATA": {
             "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}}",
@@ -258,6 +264,8 @@
       "fft_of": {
         "type": "data",
         "direction": "O",
+        "left": "0",
+        "right": "0",
         "parameters": {
           "LAYERED_METADATA": {
             "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}}",
@@ -304,6 +312,8 @@
       "fft_snap_sync": {
         "type": "data",
         "direction": "O",
+        "left": "0",
+        "right": "0",
         "parameters": {
           "LAYERED_METADATA": {
             "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}}",
@@ -326,6 +336,8 @@
       "start_dac": {
         "type": "data",
         "direction": "I",
+        "left": "0",
+        "right": "0",
         "parameters": {
           "LAYERED_METADATA": {
             "value": "undef",
@@ -353,36 +365,6 @@
         "ports": [
           "accum_reset",
           "blast_module_v6_cordic_ddc_1/accum_reset"
-        ]
-      },
-      "blast_module_v6_cordic_ddc_1_accum_snap_i0": {
-        "ports": [
-          "blast_module_v6_cordic_ddc_1/accum_snap_i0",
-          "accum_snap_i0"
-        ]
-      },
-      "blast_module_v6_cordic_ddc_1_accum_snap_i1": {
-        "ports": [
-          "blast_module_v6_cordic_ddc_1/accum_snap_i1",
-          "accum_snap_i1"
-        ]
-      },
-      "blast_module_v6_cordic_ddc_1_accum_snap_q0": {
-        "ports": [
-          "blast_module_v6_cordic_ddc_1/accum_snap_q0",
-          "accum_snap_q0"
-        ]
-      },
-      "blast_module_v6_cordic_ddc_1_accum_snap_q1": {
-        "ports": [
-          "blast_module_v6_cordic_ddc_1/accum_snap_q1",
-          "accum_snap_q1"
-        ]
-      },
-      "blast_module_v6_cordic_ddc_1_accum_snap_sync": {
-        "ports": [
-          "blast_module_v6_cordic_ddc_1/accum_snap_sync",
-          "accum_snap_sync"
         ]
       },
       "adc_i0_1": {
@@ -415,10 +397,34 @@
           "blast_module_v6_cordic_ddc_1/bin_num"
         ]
       },
-      "clk_1": {
+      "blast_module_v6_cordic_ddc_1_accum_snap_i0": {
         "ports": [
-          "clk",
-          "blast_module_v6_cordic_ddc_1/clk"
+          "blast_module_v6_cordic_ddc_1/accum_snap_i0",
+          "accum_snap_i0"
+        ]
+      },
+      "blast_module_v6_cordic_ddc_1_accum_snap_i1": {
+        "ports": [
+          "blast_module_v6_cordic_ddc_1/accum_snap_i1",
+          "accum_snap_i1"
+        ]
+      },
+      "blast_module_v6_cordic_ddc_1_accum_snap_q0": {
+        "ports": [
+          "blast_module_v6_cordic_ddc_1/accum_snap_q0",
+          "accum_snap_q0"
+        ]
+      },
+      "blast_module_v6_cordic_ddc_1_accum_snap_q1": {
+        "ports": [
+          "blast_module_v6_cordic_ddc_1/accum_snap_q1",
+          "accum_snap_q1"
+        ]
+      },
+      "blast_module_v6_cordic_ddc_1_accum_snap_sync": {
+        "ports": [
+          "blast_module_v6_cordic_ddc_1/accum_snap_sync",
+          "accum_snap_sync"
         ]
       },
       "blast_module_v6_cordic_ddc_1_ddc_snap_i0q0": {
@@ -439,34 +445,10 @@
           "ddc_snap_sync"
         ]
       },
-      "dds_shift_1": {
-        "ports": [
-          "dds_shift",
-          "blast_module_v6_cordic_ddc_1/dds_shift"
-        ]
-      },
-      "dphi_even_1": {
-        "ports": [
-          "dphi_even",
-          "blast_module_v6_cordic_ddc_1/dphi_even"
-        ]
-      },
-      "dphi_odd_1": {
-        "ports": [
-          "dphi_odd",
-          "blast_module_v6_cordic_ddc_1/dphi_odd"
-        ]
-      },
       "blast_module_v6_cordic_ddc_1_fft_of": {
         "ports": [
           "blast_module_v6_cordic_ddc_1/fft_of",
           "fft_of"
-        ]
-      },
-      "fft_shift_1": {
-        "ports": [
-          "fft_shift",
-          "blast_module_v6_cordic_ddc_1/fft_shift"
         ]
       },
       "blast_module_v6_cordic_ddc_1_fft_snap_i0q0": {
@@ -485,6 +467,36 @@
         "ports": [
           "blast_module_v6_cordic_ddc_1/fft_snap_sync",
           "fft_snap_sync"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "blast_module_v6_cordic_ddc_1/clk"
+        ]
+      },
+      "dds_shift_1": {
+        "ports": [
+          "dds_shift",
+          "blast_module_v6_cordic_ddc_1/dds_shift"
+        ]
+      },
+      "dphi_even_1": {
+        "ports": [
+          "dphi_even",
+          "blast_module_v6_cordic_ddc_1/dphi_even"
+        ]
+      },
+      "dphi_odd_1": {
+        "ports": [
+          "dphi_odd",
+          "blast_module_v6_cordic_ddc_1/dphi_odd"
+        ]
+      },
+      "fft_shift_1": {
+        "ports": [
+          "fft_shift",
+          "blast_module_v6_cordic_ddc_1/fft_shift"
         ]
       },
       "load_bins_1": {

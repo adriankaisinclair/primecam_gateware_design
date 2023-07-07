@@ -1,0 +1,289 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.037376",
+   "Default View_TopLeft":"-562,-2756",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port sysref_in -pg 1 -lvl 0 -x -350 -y 4010 -defaultsOSRD
+preplace port dac1_clk -pg 1 -lvl 0 -x -350 -y 3910 -defaultsOSRD
+preplace port vout13_0 -pg 1 -lvl 8 -x 4500 -y 4130 -defaultsOSRD
+preplace port adc0_clk -pg 1 -lvl 0 -x -350 -y 3870 -defaultsOSRD
+preplace port vin0_01 -pg 1 -lvl 0 -x -350 -y 3930 -defaultsOSRD
+preplace port vout10_0 -pg 1 -lvl 8 -x 4500 -y 4070 -defaultsOSRD
+preplace port vout11_0 -pg 1 -lvl 8 -x 4500 -y 4090 -defaultsOSRD
+preplace port vout12_0 -pg 1 -lvl 8 -x 4500 -y 4110 -defaultsOSRD
+preplace port vin0_23 -pg 1 -lvl 0 -x -350 -y 3950 -defaultsOSRD
+preplace port adc1_clk -pg 1 -lvl 0 -x -350 -y 3890 -defaultsOSRD
+preplace port vin1_01 -pg 1 -lvl 0 -x -350 -y 3970 -defaultsOSRD
+preplace port vin1_23 -pg 1 -lvl 0 -x -350 -y 3990 -defaultsOSRD
+preplace port default_sysclk2_125mhz -pg 1 -lvl 0 -x -350 -y 4430 -defaultsOSRD
+preplace port default_sysclk1_300mhz -pg 1 -lvl 0 -x -350 -y 480 -defaultsOSRD
+preplace port ddr4_sdram_075 -pg 1 -lvl 8 -x 4500 -y 710 -defaultsOSRD
+preplace port port-id_eth_mdio_0 -pg 1 -lvl 8 -x 4500 -y 4190 -defaultsOSRD
+preplace port port-id_eth_txctl_0 -pg 1 -lvl 8 -x 4500 -y 4230 -defaultsOSRD
+preplace port port-id_eth_mdc_0 -pg 1 -lvl 8 -x 4500 -y 4170 -defaultsOSRD
+preplace port port-id_eth_rst_b_0 -pg 1 -lvl 8 -x 4500 -y 4150 -defaultsOSRD
+preplace port port-id_eth_txclk_0 -pg 1 -lvl 8 -x 4500 -y 4210 -defaultsOSRD
+preplace port port-id_eth_rxctl_0 -pg 1 -lvl 0 -x -350 -y 4050 -defaultsOSRD
+preplace port port-id_eth_rxclk_0 -pg 1 -lvl 0 -x -350 -y 4030 -defaultsOSRD
+preplace port port-id_eth_rst_b_1 -pg 1 -lvl 8 -x 4500 -y 4520 -defaultsOSRD
+preplace port port-id_eth_txclk_1 -pg 1 -lvl 8 -x 4500 -y 4560 -defaultsOSRD
+preplace port port-id_eth_txctl_1 -pg 1 -lvl 8 -x 4500 -y 4580 -defaultsOSRD
+preplace port port-id_eth_mdc_1 -pg 1 -lvl 8 -x 4500 -y 5070 -defaultsOSRD
+preplace port port-id_eth_mdio_1 -pg 1 -lvl 8 -x 4500 -y 4540 -defaultsOSRD
+preplace port port-id_eth_rxclk_1 -pg 1 -lvl 0 -x -350 -y 4170 -defaultsOSRD
+preplace port port-id_eth_rxctl_1 -pg 1 -lvl 0 -x -350 -y 4190 -defaultsOSRD
+preplace port port-id_eth_txclk_2 -pg 1 -lvl 8 -x 4500 -y 4850 -defaultsOSRD
+preplace port port-id_eth_txctl_2 -pg 1 -lvl 8 -x 4500 -y 4870 -defaultsOSRD
+preplace port port-id_eth_mdc_2 -pg 1 -lvl 8 -x 4500 -y 4810 -defaultsOSRD
+preplace port port-id_eth_mdio_2 -pg 1 -lvl 8 -x 4500 -y 4830 -defaultsOSRD
+preplace port port-id_eth_rst_b_2 -pg 1 -lvl 8 -x 4500 -y 4790 -defaultsOSRD
+preplace port port-id_eth_rxclk_2 -pg 1 -lvl 0 -x -350 -y 4150 -defaultsOSRD
+preplace port port-id_eth_rxctl_2 -pg 1 -lvl 0 -x -350 -y 4210 -defaultsOSRD
+preplace port port-id_eth_txclk_3 -pg 1 -lvl 8 -x 4500 -y 5150 -defaultsOSRD
+preplace port port-id_eth_txctl_3 -pg 1 -lvl 8 -x 4500 -y 5170 -defaultsOSRD
+preplace port port-id_eth_mdc_3 -pg 1 -lvl 8 -x 4500 -y 5110 -defaultsOSRD
+preplace port port-id_eth_mdio_3 -pg 1 -lvl 8 -x 4500 -y 5130 -defaultsOSRD
+preplace port port-id_eth_rst_b_3 -pg 1 -lvl 8 -x 4500 -y 5090 -defaultsOSRD
+preplace port port-id_eth_rxclk_3 -pg 1 -lvl 0 -x -350 -y 4340 -defaultsOSRD
+preplace port port-id_eth_rxctl_3 -pg 1 -lvl 0 -x -350 -y 4360 -defaultsOSRD
+preplace portBus eth_txd_0 -pg 1 -lvl 8 -x 4500 -y 4500 -defaultsOSRD
+preplace portBus eth_rxd_0 -pg 1 -lvl 0 -x -350 -y 4530 -defaultsOSRD
+preplace portBus eth_txd_1 -pg 1 -lvl 8 -x 4500 -y 4770 -defaultsOSRD
+preplace portBus eth_rxd_1 -pg 1 -lvl 0 -x -350 -y 4800 -defaultsOSRD
+preplace portBus eth_txd_2 -pg 1 -lvl 8 -x 4500 -y 5050 -defaultsOSRD
+preplace portBus eth_rxd_2 -pg 1 -lvl 0 -x -350 -y 5080 -defaultsOSRD
+preplace portBus eth_txd_3 -pg 1 -lvl 8 -x 4500 -y 5300 -defaultsOSRD
+preplace portBus eth_rxd_3 -pg 1 -lvl 0 -x -350 -y 5330 -defaultsOSRD
+preplace inst bool_true -pg 1 -lvl 5 -x 2010 -y 4090 -defaultsOSRD
+preplace inst chan1 -pg 1 -lvl 6 -x 3170 -y 1730 -defaultsOSRD
+preplace inst mymux_data -pg 1 -lvl 5 -x 2010 -y 1160 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -x 1140 -y 1150 -defaultsOSRD
+preplace inst mymux_araddr -pg 1 -lvl 5 -x 2010 -y 970 -defaultsOSRD
+preplace inst mymux_arvalid -pg 1 -lvl 5 -x 2010 -y 1340 -defaultsOSRD
+preplace inst mymux_3 -pg 1 -lvl 5 -x 2010 -y 630 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 4 -x 1140 -y 560 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 4 -x 1140 -y 660 -defaultsOSRD
+preplace inst slice_chan4 -pg 1 -lvl 4 -x 1140 -y 3630 -defaultsOSRD
+preplace inst slice_chan2 -pg 1 -lvl 4 -x 1140 -y 3530 -defaultsOSRD
+preplace inst slice_chan3 -pg 1 -lvl 4 -x 1140 -y 3730 -defaultsOSRD
+preplace inst slice_chan1 -pg 1 -lvl 3 -x 550 -y 3390 -defaultsOSRD
+preplace inst read_machine -pg 1 -lvl 2 -x 230 -y 860 -defaultsOSRD
+preplace inst refresh_machine -pg 1 -lvl 1 -x -40 -y 580 -defaultsOSRD
+preplace inst mymux_arlen -pg 1 -lvl 5 -x 2010 -y 270 -defaultsOSRD
+preplace inst mymux_arsize -pg 1 -lvl 5 -x 2010 -y 430 -defaultsOSRD
+preplace inst mymux_arburst -pg 1 -lvl 5 -x 2010 -y 90 -defaultsOSRD
+preplace inst arlen -pg 1 -lvl 4 -x 1140 -y 260 -defaultsOSRD
+preplace inst arsize -pg 1 -lvl 4 -x 1140 -y 420 -defaultsOSRD
+preplace inst arburst -pg 1 -lvl 4 -x 1140 -y 80 -defaultsOSRD
+preplace inst chan1ts -pg 1 -lvl 4 -x 1140 -y 3430 -defaultsOSRD
+preplace inst chan2 -pg 1 -lvl 6 -x 3170 -y 2200 -defaultsOSRD
+preplace inst chan2ts -pg 1 -lvl 5 -x 2010 -y 3250 -defaultsOSRD
+preplace inst chan3ts -pg 1 -lvl 5 -x 2010 -y 3650 -defaultsOSRD
+preplace inst chan4ts -pg 1 -lvl 5 -x 2010 -y 3540 -defaultsOSRD
+preplace inst chan3 -pg 1 -lvl 6 -x 3170 -y 2760 -defaultsOSRD
+preplace inst chan4 -pg 1 -lvl 6 -x 3170 -y 2470 -defaultsOSRD
+preplace inst ethWrapPort0 -pg 1 -lvl 6 -x 3170 -y 4130 -defaultsOSRD
+preplace inst ethWrapPort1 -pg 1 -lvl 6 -x 3170 -y 4410 -defaultsOSRD
+preplace inst ethWrapPort2 -pg 1 -lvl 6 -x 3170 -y 4690 -defaultsOSRD
+preplace inst ethWrapPort3 -pg 1 -lvl 6 -x 3170 -y 4940 -defaultsOSRD
+preplace inst dphi_1 -pg 1 -lvl 4 -x 1140 -y 3290 -defaultsOSRD
+preplace inst mix_chan1 -pg 1 -lvl 5 -x 2010 -y 3070 -defaultsOSRD
+preplace inst mix_freq_set_0 -pg 1 -lvl 4 -x 1140 -y 2860 -defaultsOSRD
+preplace inst dphi_2 -pg 1 -lvl 4 -x 1140 -y 3190 -defaultsOSRD
+preplace inst dphi_3 -pg 1 -lvl 4 -x 1140 -y 2990 -defaultsOSRD
+preplace inst dphi_4 -pg 1 -lvl 4 -x 1140 -y 3090 -defaultsOSRD
+preplace inst mix_chan2 -pg 1 -lvl 5 -x 2010 -y 3396 -defaultsOSRD
+preplace inst mix_chan3 -pg 1 -lvl 5 -x 2010 -y 3960 -defaultsOSRD
+preplace inst mix_chan4 -pg 1 -lvl 5 -x 2010 -y 3790 -defaultsOSRD
+preplace inst axi_ddr4_mux -pg 1 -lvl 6 -x 3170 -y 1510 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x -40 -y 2333 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 5 -x 2010 -y 4430 -defaultsOSRD
+preplace inst ps8_0_axi_periph2 -pg 1 -lvl 5 -x 2010 -y 2700 -defaultsOSRD
+preplace inst ps8_0_axi_periph1 -pg 1 -lvl 5 -x 2010 -y 2120 -defaultsOSRD -resize 275 592
+preplace inst rst_125MHz -pg 1 -lvl 4 -x 1140 -y 830 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 4 -x 1140 -y 2553 -defaultsOSRD
+preplace inst rst_256MHz -pg 1 -lvl 4 -x 1140 -y 2360 -defaultsOSRD
+preplace inst usp_rf_data_converter_0 -pg 1 -lvl 6 -x 3170 -y 3480 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 4 -x 1140 -y 2150 -defaultsOSRD
+preplace inst ddr4_1 -pg 1 -lvl 7 -x 3990 -y 770 -defaultsOSRD
+preplace netloc CE_1 1 0 8 -320 490 NJ 490 NJ 490 NJ 490 1680J 520 NJ 520 NJ 520 4450
+preplace netloc Din_1 1 4 1 1620J 3640n
+preplace netloc Din_2 1 4 1 1630J 3530n
+preplace netloc Din_3 1 4 2 1700 4240 2170
+preplace netloc In0_1 1 5 1 2580 2830n
+preplace netloc In1_1 1 5 1 2510 2560n
+preplace netloc In1_3 1 5 1 2380 1820n
+preplace netloc In1_4 1 5 1 2460 2290n
+preplace netloc M04_ARESETN_1 1 4 2 1610 1750 2290J
+preplace netloc M04_AXI_rdata_1 1 5 1 2210 1160n
+preplace netloc Net 1 2 2 360 3330 670
+preplace netloc Net1 1 6 2 NJ 4400 4370
+preplace netloc Net2 1 5 1 2200 4110n
+preplace netloc Net3 1 6 2 NJ 4120 4420
+preplace netloc Net4 1 6 2 NJ 4680 4300
+preplace netloc Net5 1 6 2 NJ 4930 4240
+preplace netloc Net6 1 4 3 1690 2960 NJ 2960 3410
+preplace netloc Net7 1 4 3 1700 2970 NJ 2970 3400
+preplace netloc arlen_dout 1 4 1 NJ 260
+preplace netloc arsize1_dout 1 4 1 NJ 80
+preplace netloc arsize_dout 1 4 1 NJ 420
+preplace netloc axi_ddr4_mux_gpio2_io_o 1 3 4 700 1730 NJ 1730 2630J 1880 3380
+preplace netloc axi_ddr4_mux_gpio_io_o 1 3 4 720 1720 NJ 1720 2270J 1870 3390
+preplace netloc chan1_Q 1 5 2 2810 2610 3410
+preplace netloc chan1_accum_snap_sync 1 5 2 2790 1900 3370
+preplace netloc chan1ts_z 1 4 1 1600 3030n
+preplace netloc chan2ts_z 1 4 2 1700 3180 2170
+preplace netloc chan4ts_z 1 4 2 1670 4250 2180
+preplace netloc clk_wiz_0_clk_out1 1 1 5 70 2243 NJ 2243 700 2260 1640 1760 2540
+preplace netloc ddr4_0_c0_ddr4_s_axi_rdata 1 1 6 90 950 NJ 950 NJ 950 1670 780 N 780 N
+preplace netloc ddr4_0_c0_ddr4_s_axi_rvalid 1 1 6 80 730 NJ 730 NJ 730 NJ 730 2260 870 3420
+preplace netloc dina_1 1 5 2 2800 2900 3400
+preplace netloc dina_2 1 5 2 2780 2910 3370
+preplace netloc dina_3 1 5 2 2760 2920 3390
+preplace netloc dphi_2_Dout 1 4 1 1530 3190n
+preplace netloc dphi_3_Dout 1 4 1 1590 2990n
+preplace netloc dphi_5 1 4 1 1560 3090n
+preplace netloc dphi_Dout 1 4 1 1610J 3050n
+preplace netloc ethWrapPort1_eth_mdc_0 1 6 2 NJ 4380 4320
+preplace netloc ethWrapPort1_eth_rst_b_0 1 6 2 NJ 4360 4380
+preplace netloc ethWrapPort1_eth_txclk_0 1 6 2 NJ 4420 4360
+preplace netloc ethWrapPort1_eth_txctl_0 1 6 2 NJ 4440 4350
+preplace netloc ethWrapPort1_eth_txd_0 1 6 2 NJ 4460 4340
+preplace netloc ethWrapPort2_eth_mdc_0 1 6 2 NJ 4660 4310
+preplace netloc ethWrapPort2_eth_rst_b_0 1 6 2 NJ 4640 4330
+preplace netloc ethWrapPort2_eth_txclk_0 1 6 2 NJ 4700 4290
+preplace netloc ethWrapPort2_eth_txctl_0 1 6 2 NJ 4720 4280
+preplace netloc ethWrapPort2_eth_txd_0 1 6 2 NJ 4740 4270
+preplace netloc ethWrapPort3_eth_mdc_0 1 6 2 NJ 4910 4250
+preplace netloc ethWrapPort3_eth_rst_b_0 1 6 2 NJ 4890 4260
+preplace netloc ethWrapPort3_eth_txclk_0 1 6 2 NJ 4950 4230
+preplace netloc ethWrapPort3_eth_txctl_0 1 6 2 NJ 4970 4220
+preplace netloc ethWrapPort3_eth_txd_0 1 6 2 NJ 4990 4210
+preplace netloc eth_rxck_0_0_1 1 0 6 NJ 4170 NJ 4170 NJ 4170 NJ 4170 1470J 4350 2230J
+preplace netloc eth_rxck_0_0_2 1 0 6 NJ 4150 NJ 4150 NJ 4150 NJ 4150 1480J 4330 2210J
+preplace netloc eth_rxck_0_0_3 1 0 6 NJ 4340 NJ 4340 NJ 4340 NJ 4340 NJ 4340 2180J
+preplace netloc eth_rxck_0_1 1 0 6 NJ 4030 NJ 4030 NJ 4030 NJ 4030 1500J 4230 2710J
+preplace netloc eth_rxctl_0_0_1 1 0 6 NJ 4190 NJ 4190 NJ 4190 NJ 4190 1450J 4370 2190J
+preplace netloc eth_rxctl_0_0_2 1 0 6 NJ 4210 NJ 4210 NJ 4210 NJ 4210 1460J 4320 2220J
+preplace netloc eth_rxctl_0_0_3 1 0 6 NJ 4360 NJ 4360 NJ 4360 NJ 4360 NJ 4360 2170J
+preplace netloc eth_rxctl_0_1 1 0 6 NJ 4050 NJ 4050 NJ 4050 NJ 4050 1490J 4260 2730J
+preplace netloc eth_rxd_0_0_1 1 0 6 -320J 4490 NJ 4490 NJ 4490 NJ 4490 NJ 4490 NJ
+preplace netloc eth_rxd_0_0_2 1 0 6 -310J 4770 NJ 4770 NJ 4770 NJ 4770 NJ 4770 NJ
+preplace netloc eth_rxd_0_0_3 1 0 6 -300J 5020 NJ 5020 NJ 5020 NJ 5020 NJ 5020 NJ
+preplace netloc eth_rxd_0_1 1 0 6 -330J 4310 NJ 4310 NJ 4310 NJ 4310 NJ 4310 2740J
+preplace netloc eth_wrap_tx_clk125MHz 1 0 8 -300 760 70 760 NJ 760 680 930 1650 1740 2640 1890 N 1890 4450
+preplace netloc ethernet_top_2_0_eth_mdc 1 6 2 NJ 4100 4430
+preplace netloc ethernet_top_2_0_eth_rst_b 1 6 2 NJ 4080 4440
+preplace netloc ethernet_top_2_0_eth_txck 1 6 2 NJ 4140 4410
+preplace netloc ethernet_top_2_0_eth_txctl 1 6 2 NJ 4160 4400
+preplace netloc ethernet_top_2_0_eth_txd 1 6 2 NJ 4180 4390
+preplace netloc mix_chan2_dout 1 5 1 2520 3360n
+preplace netloc mix_chan2_dout2 1 5 1 2440 2270n
+preplace netloc mix_chan3_dout 1 5 1 2610 3300n
+preplace netloc mix_chan3_dout1 1 5 1 2590 2850n
+preplace netloc mix_chan4_dout 1 5 1 2600 3240n
+preplace netloc mix_chan4_dout2 1 5 1 2500 2540n
+preplace netloc mix_freq_set_0_dphi_chan1_s 1 3 2 710 2740 1610
+preplace netloc mix_freq_set_0_dphi_chan2_s 1 3 2 730 2750 1590
+preplace netloc mix_freq_set_0_dphi_chan3_s 1 3 2 750 2760 1560
+preplace netloc mix_freq_set_0_dphi_chan4_s 1 3 2 760 2770 1530
+preplace netloc mymux_3_z 1 5 2 NJ 630 3370
+preplace netloc mymux_araddr_z 1 5 2 2250J 750 3390
+preplace netloc mymux_arburst_z 1 5 2 NJ 90 3430
+preplace netloc mymux_arlen_z 1 5 2 NJ 270 3420
+preplace netloc mymux_arsize_z 1 5 2 NJ 430 3400
+preplace netloc mymux_arvalid_z 1 5 2 2270 760 NJ
+preplace netloc ps8_0_axi_periph1_M04_AXI_araddr 1 4 2 1700 1060 2170
+preplace netloc ps8_0_axi_periph1_M04_AXI_arburst 1 4 2 1650 0 2230
+preplace netloc ps8_0_axi_periph1_M04_AXI_arlen 1 4 2 1690 180 2220
+preplace netloc ps8_0_axi_periph1_M04_AXI_arsize 1 4 2 1690 1070 2190
+preplace netloc ps8_0_axi_periph1_M04_AXI_arvalid 1 4 2 1700 1430 2180
+preplace netloc ps8_0_axi_periph1_M04_AXI_rready 1 4 2 1700 740 2240
+preplace netloc qin_dout 1 5 1 2370 1800n
+preplace netloc read_machine_dout1 1 2 3 370 930 670J 960 NJ
+preplace netloc read_machine_q 1 2 3 350 940 NJ 940 1640J
+preplace netloc refresh_machine_Res 1 1 1 60 590n
+preplace netloc refresh_machine_THRESH0 1 1 6 NJ 570 N 570 670 500 1660 530 N 530 3380
+preplace netloc rst1_1 1 0 8 -310 720 N 720 N 720 N 720 N 720 2240 580 N 580 4460
+preplace netloc rst_1 1 0 8 -330 -10 N -10 N -10 N -10 N -10 N -10 N -10 4470
+preplace netloc rst_125MHz_mb_reset 1 4 3 1660 860 NJ 860 3370J
+preplace netloc rst_125MHz_peripheral_aresetn 1 4 3 1640 880 NJ 880 NJ
+preplace netloc rst_ps8_0_99M1_peripheral_aresetn 1 3 3 740 2730 1700 1780 2480
+preplace netloc rst_ps8_0_99M_interconnect_aresetn 1 4 1 1600 1902n
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 4 2 1530 2440 2550
+preplace netloc slice_chan2_Dout 1 4 1 1620J 3240n
+preplace netloc slice_chan4_Dout 1 3 1 680J 3390n
+preplace netloc start_1 1 5 2 2770 2050 3380
+preplace netloc start_2 1 5 2 2830 2930 3380
+preplace netloc start_3 1 5 2 2820 2940 3420
+preplace netloc usp_rf_data_converter_0_clk_dac1 1 0 7 -310 1790 NJ 1790 NJ 1790 NJ 1790 NJ 1790 2610J 1910 3430
+preplace netloc usp_rf_data_converter_0_m02_axis_tdata 1 4 3 1690 3170 2490J 3100 3380
+preplace netloc usp_rf_data_converter_0_m03_axis_tdata 1 4 3 1680 3160 2470J 3090 3420
+preplace netloc usp_rf_data_converter_0_m10_axis_tdata 1 4 3 1690 4270 NJ 4270 3410
+preplace netloc usp_rf_data_converter_0_m11_axis_tdata 1 4 3 1680 4300 2750J 4260 3400
+preplace netloc usp_rf_data_converter_0_m12_axis_tdata 1 4 3 1650 4280 2700J 3980 3380
+preplace netloc usp_rf_data_converter_0_m13_axis_tdata 1 4 3 1660 4290 2720J 3990 3370
+preplace netloc xlconcat_0_dout 1 5 1 2450 3050n
+preplace netloc xlconstant_0_dout 1 5 2 2530 3110 3390
+preplace netloc xlconstant_0_dout1 1 4 1 NJ 1150
+preplace netloc xlslice_0_Dout 1 4 1 1670J 560n
+preplace netloc xlslice_1_Dout 1 4 1 1530 100n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 3 3 760 2040 1550 1770 2650
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 5 -300 2253 NJ 2253 NJ 2253 690 2030 1530
+preplace netloc adc0_clk_1 1 0 6 NJ 3870 NJ 3870 NJ 3870 NJ 3870 1580J 4150 2190J
+preplace netloc adc1_clk_1 1 0 6 NJ 3890 NJ 3890 NJ 3890 NJ 3890 1570J 4160 2620J
+preplace netloc dac1_clk_1_1 1 0 6 NJ 3910 NJ 3910 NJ 3910 NJ 3910 1560J 4170 2630J
+preplace netloc ddr4_1_C0_DDR4 1 7 1 4480 690n
+preplace netloc default_sysclk1_300mhz_1 1 0 7 NJ 480 NJ 480 NJ 480 NJ 480 1670J 540 NJ 540 3410J
+preplace netloc default_sysclk2_125mhz_1 1 0 5 NJ 4430 NJ 4430 NJ 4430 NJ 4430 NJ
+preplace netloc ps8_0_axi_periph1_M00_AXI 1 5 1 2600 1890n
+preplace netloc ps8_0_axi_periph1_M01_AXI 1 5 1 2590 1910n
+preplace netloc ps8_0_axi_periph1_M02_AXI 1 5 1 2570 1930n
+preplace netloc ps8_0_axi_periph1_M03_AXI 1 5 1 2300 1680n
+preplace netloc ps8_0_axi_periph1_M04_AXI 1 5 2 2280 660 NJ
+preplace netloc ps8_0_axi_periph1_M05_AXI 1 5 1 2350 2130n
+preplace netloc ps8_0_axi_periph1_M06_AXI 1 5 1 2360 2150n
+preplace netloc ps8_0_axi_periph1_M07_AXI 1 5 1 2530 2190n
+preplace netloc ps8_0_axi_periph1_M08_AXI 1 5 1 2640 2210n
+preplace netloc ps8_0_axi_periph1_M09_AXI 1 5 1 2330 1660n
+preplace netloc ps8_0_axi_periph1_M10_AXI 1 5 1 2320 1640n
+preplace netloc ps8_0_axi_periph1_M11_AXI 1 5 1 2430 2270n
+preplace netloc ps8_0_axi_periph1_M12_AXI 1 5 1 2420 2290n
+preplace netloc ps8_0_axi_periph1_M13_AXI 1 5 1 2560 2310n
+preplace netloc ps8_0_axi_periph1_M14_AXI 1 5 1 2340 1700n
+preplace netloc ps8_0_axi_periph1_M15_AXI 1 5 1 2500 2350n
+preplace netloc ps8_0_axi_periph2_M00_AXI 1 5 1 2310 1490n
+preplace netloc ps8_0_axi_periph2_M01_AXI 1 5 1 2400 2400n
+preplace netloc ps8_0_axi_periph2_M02_AXI 1 5 1 2410 2420n
+preplace netloc ps8_0_axi_periph2_M03_AXI 1 5 1 2410 2690n
+preplace netloc ps8_0_axi_periph2_M04_AXI 1 5 1 2400 2710n
+preplace netloc ps8_0_axi_periph2_M05_AXI 1 5 1 2390 2730n
+preplace netloc ps8_0_axi_periph2_M06_AXI 1 5 1 2260 2750n
+preplace netloc ps8_0_axi_periph2_M07_AXI 1 3 3 720 1800 NJ 1800 2200
+preplace netloc sysref_in_1 1 0 6 NJ 4010 NJ 4010 NJ 4010 NJ 4010 1520J 4190 2680J
+preplace netloc usp_rf_data_converter_0_vout10 1 6 2 NJ 3650 4480
+preplace netloc usp_rf_data_converter_0_vout11 1 6 2 NJ 3670 4470
+preplace netloc usp_rf_data_converter_0_vout12 1 6 2 NJ 3690 4460
+preplace netloc usp_rf_data_converter_0_vout13 1 6 2 NJ 3710 4450
+preplace netloc vin0_01_1 1 0 6 NJ 3930 NJ 3930 NJ 3930 NJ 3930 1550J 4180 2640J
+preplace netloc vin0_23_1 1 0 6 NJ 3950 NJ 3950 NJ 3950 NJ 3950 1530J 4220 2670J
+preplace netloc vin1_01_1 1 0 6 NJ 3970 NJ 3970 NJ 3970 NJ 3970 1540J 4200 2660J
+preplace netloc vin1_23_1 1 0 6 NJ 3990 NJ 3990 NJ 3990 NJ 3990 1510J 4210 2690J
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 4 1 1560 1863n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 4 1 1560 2140n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 4 1 1590 1876n
+levelinfo -pg 1 -350 -40 230 550 1140 2010 3170 3990 4500
+pagesize -pg 1 -db -bbox -sgen -580 -20 4670 5920
+"
+}
+{
+   "da_axi4_cnt":"47",
+   "da_board_cnt":"11",
+   "da_clkrst_cnt":"5",
+   "da_rf_converter_usp_cnt":"7",
+   "da_xxv_ethernet_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

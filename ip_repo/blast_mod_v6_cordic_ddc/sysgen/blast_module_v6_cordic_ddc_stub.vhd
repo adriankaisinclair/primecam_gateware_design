@@ -5,7 +5,7 @@ library xil_defaultlib;
 entity blast_module_v6_cordic_ddc_stub is
   port (
     accum_len : in std_logic_vector( 24-1 downto 0 );
-    accum_reset : in std_logic;
+    accum_reset : in std_logic_vector( 1-1 downto 0 );
     adc_i0 : in std_logic_vector( 16-1 downto 0 );
     adc_i1 : in std_logic_vector( 16-1 downto 0 );
     adc_q0 : in std_logic_vector( 16-1 downto 0 );
@@ -16,20 +16,20 @@ entity blast_module_v6_cordic_ddc_stub is
     dphi_odd : in std_logic_vector( 16-1 downto 0 );
     fft_shift : in std_logic_vector( 10-1 downto 0 );
     load_bins : in std_logic_vector( 11-1 downto 0 );
-    start_dac : in std_logic;
+    start_dac : in std_logic_vector( 1-1 downto 0 );
     clk : in std_logic;
     accum_snap_i0 : out std_logic_vector( 32-1 downto 0 );
     accum_snap_i1 : out std_logic_vector( 32-1 downto 0 );
     accum_snap_q0 : out std_logic_vector( 32-1 downto 0 );
     accum_snap_q1 : out std_logic_vector( 32-1 downto 0 );
-    accum_snap_sync : out std_logic;
+    accum_snap_sync : out std_logic_vector( 1-1 downto 0 );
     ddc_snap_i0q0 : out std_logic_vector( 38-1 downto 0 );
     ddc_snap_i1q1 : out std_logic_vector( 38-1 downto 0 );
-    ddc_snap_sync : out std_logic;
-    fft_of : out std_logic;
+    ddc_snap_sync : out std_logic_vector( 1-1 downto 0 );
+    fft_of : out std_logic_vector( 1-1 downto 0 );
     fft_snap_i0q0 : out std_logic_vector( 36-1 downto 0 );
     fft_snap_i1q1 : out std_logic_vector( 36-1 downto 0 );
-    fft_snap_sync : out std_logic
+    fft_snap_sync : out std_logic_vector( 1-1 downto 0 )
   );
 end blast_module_v6_cordic_ddc_stub;
 architecture structural of blast_module_v6_cordic_ddc_stub is 

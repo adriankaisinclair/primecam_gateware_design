@@ -1,7 +1,7 @@
 #-----------------------------------------------------------------
-# System Generator version 2020.2 IP Tcl source file.
+# System Generator version 2021.1 IP Tcl source file.
 #
-# Copyright(C) 2020 by Xilinx, Inc.  All rights reserved.  This
+# Copyright(C) 2021 by Xilinx, Inc.  All rights reserved.  This
 # text/file contains proprietary, confidential information of Xilinx,
 # Inc., is distributed under license from Xilinx, Inc., and may be used,
 # copied and/or disclosed only pursuant to the terms of a valid license
@@ -30,7 +30,7 @@
 # sole risk and will be unsupported.
 #
 # This copyright and support notice must be retained as part of this
-# text at all times.  (c) Copyright 1995-2020 Xilinx, Inc.  All rights
+# text at all times.  (c) Copyright 1995-2021 Xilinx, Inc.  All rights
 # reserved.
 #-----------------------------------------------------------------
 
@@ -48,7 +48,7 @@ lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
 lappend params_list CONFIG.load {false}
-lappend params_list CONFIG.output_width {8}
+lappend params_list CONFIG.output_width {9}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -69,13 +69,13 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i1}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {UP}
+lappend params_list CONFIG.count_mode {DOWN}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {false}
+lappend params_list CONFIG.load {true}
 lappend params_list CONFIG.output_width {9}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
@@ -91,54 +91,20 @@ set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_bi
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i0] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i0
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i0}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {21}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {21}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {true}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {1}
-lappend params_list CONFIG.Out_Width {21}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i0]
-}
-
-
-set existingipslist [get_ips]
 if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2] < 0} {
 create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2
 set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {DOWN}
+lappend params_list CONFIG.count_mode {UP}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {true}
-lappend params_list CONFIG.output_width {9}
+lappend params_list CONFIG.load {false}
+lappend params_list CONFIG.output_width {8}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -159,102 +125,6 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {UP}
-lappend params_list CONFIG.fb_latency {0}
-lappend params_list CONFIG.final_count_value {1}
-lappend params_list CONFIG.implementation {Fabric}
-lappend params_list CONFIG.increment_value {1}
-lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {false}
-lappend params_list CONFIG.output_width {7}
-lappend params_list CONFIG.restrict_count {false}
-lappend params_list CONFIG.sclr {false}
-lappend params_list CONFIG.sinit {true}
-lappend params_list CONFIG.sinit_value {0}
-lappend params_list CONFIG.sset {false}
-lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
-lappend params_list CONFIG.sync_threshold_output {false}
-lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i1] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i1
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i1}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {23}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {23}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {true}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {1}
-lappend params_list CONFIG.Out_Width {23}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i1]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i2] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i2
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i2}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {22}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {22}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {false}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {0}
-lappend params_list CONFIG.Out_Width {22}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i2]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4] < 0} {
-create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4}
-lappend params_list CONFIG.ainit_value {0}
-lappend params_list CONFIG.ce {true}
 lappend params_list CONFIG.count_mode {DOWN}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
@@ -272,7 +142,99 @@ lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
 lappend params_list CONFIG.sync_threshold_output {false}
 lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
 
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3]
+}
+
+
+set existingipslist [get_ips]
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4] < 0} {
+create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4
+set params_list [list]
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4}
+lappend params_list CONFIG.ainit_value {0}
+lappend params_list CONFIG.ce {true}
+lappend params_list CONFIG.count_mode {UP}
+lappend params_list CONFIG.fb_latency {0}
+lappend params_list CONFIG.final_count_value {1}
+lappend params_list CONFIG.implementation {Fabric}
+lappend params_list CONFIG.increment_value {1}
+lappend params_list CONFIG.latency {1}
+lappend params_list CONFIG.load {false}
+lappend params_list CONFIG.output_width {7}
+lappend params_list CONFIG.restrict_count {false}
+lappend params_list CONFIG.sclr {false}
+lappend params_list CONFIG.sinit {true}
+lappend params_list CONFIG.sinit_value {0}
+lappend params_list CONFIG.sset {false}
+lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
+lappend params_list CONFIG.sync_threshold_output {false}
+lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
+
 set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4]
+}
+
+
+set existingipslist [get_ips]
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_dist_mem_gen_i0] < 0} {
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_dist_mem_gen_i0
+set params_list [list]
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_dist_mem_gen_i0}
+lappend params_list CONFIG.ce_overrides {sync_controls_overrides_ce}
+lappend params_list CONFIG.common_output_ce {false}
+lappend params_list CONFIG.common_output_clk {false}
+lappend params_list CONFIG.data_width {18}
+lappend params_list CONFIG.default_data {0}
+lappend params_list CONFIG.default_data_radix {16}
+lappend params_list CONFIG.depth {16}
+lappend params_list CONFIG.dual_port_address {non_registered}
+lappend params_list CONFIG.dual_port_output_clock_enable {false}
+lappend params_list CONFIG.input_clock_enable {false}
+lappend params_list CONFIG.input_options {non_registered}
+lappend params_list CONFIG.memory_type {dual_port_ram}
+lappend params_list CONFIG.output_options {non_registered}
+lappend params_list CONFIG.qualify_we_with_i_ce {false}
+lappend params_list CONFIG.reset_qdpo {false}
+lappend params_list CONFIG.reset_qspo {false}
+lappend params_list CONFIG.single_port_output_clock_enable {false}
+lappend params_list CONFIG.sync_reset_qdpo {false}
+lappend params_list CONFIG.sync_reset_qspo {false}
+lappend params_list CONFIG.coefficient_file {../blast_module_v6_cordic_ddc_dist_mem_gen_i0_vivado.coe}
+
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_dist_mem_gen_i0]
+}
+
+
+set existingipslist [get_ips]
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i0] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i0
+set params_list [list]
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i0}
+lappend params_list CONFIG.AINIT_Value {0}
+lappend params_list CONFIG.A_Type {Unsigned}
+lappend params_list CONFIG.A_Width {3}
+lappend params_list CONFIG.Add_Mode {Add}
+lappend params_list CONFIG.B_Constant {false}
+lappend params_list CONFIG.B_Type {Unsigned}
+lappend params_list CONFIG.B_Value {0}
+lappend params_list CONFIG.B_Width {3}
+lappend params_list CONFIG.Borrow_Sense {Active_Low}
+lappend params_list CONFIG.Bypass {false}
+lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
+lappend params_list CONFIG.Bypass_Sense {Active_Low}
+lappend params_list CONFIG.CE {false}
+lappend params_list CONFIG.C_In {false}
+lappend params_list CONFIG.C_Out {false}
+lappend params_list CONFIG.Implementation {Fabric}
+lappend params_list CONFIG.Latency {0}
+lappend params_list CONFIG.Out_Width {3}
+lappend params_list CONFIG.SCLR {false}
+lappend params_list CONFIG.SINIT {false}
+lappend params_list CONFIG.SINIT_Value {0}
+lappend params_list CONFIG.SSET {false}
+lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
+lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
+
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i0]
 }
 
 
@@ -281,6 +243,34 @@ if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_
 create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5
 set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5}
+lappend params_list CONFIG.ainit_value {0}
+lappend params_list CONFIG.ce {true}
+lappend params_list CONFIG.count_mode {DOWN}
+lappend params_list CONFIG.fb_latency {0}
+lappend params_list CONFIG.final_count_value {1}
+lappend params_list CONFIG.implementation {Fabric}
+lappend params_list CONFIG.increment_value {1}
+lappend params_list CONFIG.latency {1}
+lappend params_list CONFIG.load {true}
+lappend params_list CONFIG.output_width {7}
+lappend params_list CONFIG.restrict_count {false}
+lappend params_list CONFIG.sclr {false}
+lappend params_list CONFIG.sinit {true}
+lappend params_list CONFIG.sinit_value {0}
+lappend params_list CONFIG.sset {false}
+lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
+lappend params_list CONFIG.sync_threshold_output {false}
+lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
+
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5]
+}
+
+
+set existingipslist [get_ips]
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6] < 0} {
+create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6
+set params_list [list]
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
 lappend params_list CONFIG.count_mode {UP}
@@ -300,121 +290,19 @@ lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
 lappend params_list CONFIG.sync_threshold_output {false}
 lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5]
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i3] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i3
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_dist_mem_gen_i1] < 0} {
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_dist_mem_gen_i1
 set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i3}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {24}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {24}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {true}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {1}
-lappend params_list CONFIG.Out_Width {24}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i3]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i4] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i4
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i4}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {23}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {23}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {false}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {0}
-lappend params_list CONFIG.Out_Width {23}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i4]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i5] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i5
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i5}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {40}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {40}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {true}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {1}
-lappend params_list CONFIG.Out_Width {40}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i5]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_dist_mem_gen_i0] < 0} {
-create_ip -name dist_mem_gen -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_dist_mem_gen_i0
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_dist_mem_gen_i0}
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_dist_mem_gen_i1}
 lappend params_list CONFIG.ce_overrides {sync_controls_overrides_ce}
 lappend params_list CONFIG.common_output_ce {false}
 lappend params_list CONFIG.common_output_clk {false}
-lappend params_list CONFIG.data_width {36}
+lappend params_list CONFIG.data_width {18}
 lappend params_list CONFIG.default_data {0}
 lappend params_list CONFIG.default_data_radix {16}
 lappend params_list CONFIG.depth {16}
@@ -422,45 +310,17 @@ lappend params_list CONFIG.dual_port_address {non_registered}
 lappend params_list CONFIG.dual_port_output_clock_enable {false}
 lappend params_list CONFIG.input_clock_enable {false}
 lappend params_list CONFIG.input_options {non_registered}
-lappend params_list CONFIG.memory_type {rom}
-lappend params_list CONFIG.output_options {registered}
+lappend params_list CONFIG.memory_type {dual_port_ram}
+lappend params_list CONFIG.output_options {non_registered}
 lappend params_list CONFIG.qualify_we_with_i_ce {false}
 lappend params_list CONFIG.reset_qdpo {false}
 lappend params_list CONFIG.reset_qspo {false}
-lappend params_list CONFIG.single_port_output_clock_enable {true}
+lappend params_list CONFIG.single_port_output_clock_enable {false}
 lappend params_list CONFIG.sync_reset_qdpo {false}
 lappend params_list CONFIG.sync_reset_qspo {false}
-lappend params_list CONFIG.coefficient_file {../blast_module_v6_cordic_ddc_dist_mem_gen_i0_vivado.coe}
+lappend params_list CONFIG.coefficient_file {../blast_module_v6_cordic_ddc_dist_mem_gen_i1_vivado.coe}
 
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_dist_mem_gen_i0]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6] < 0} {
-create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6}
-lappend params_list CONFIG.ainit_value {0}
-lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {DOWN}
-lappend params_list CONFIG.fb_latency {0}
-lappend params_list CONFIG.final_count_value {1}
-lappend params_list CONFIG.implementation {Fabric}
-lappend params_list CONFIG.increment_value {1}
-lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {true}
-lappend params_list CONFIG.output_width {7}
-lappend params_list CONFIG.restrict_count {false}
-lappend params_list CONFIG.sclr {false}
-lappend params_list CONFIG.sinit {true}
-lappend params_list CONFIG.sinit_value {0}
-lappend params_list CONFIG.sset {false}
-lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
-lappend params_list CONFIG.sync_threshold_output {false}
-lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6]
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_dist_mem_gen_i1]
 }
 
 
@@ -471,14 +331,14 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i7}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {UP}
+lappend params_list CONFIG.count_mode {DOWN}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {false}
-lappend params_list CONFIG.output_width {5}
+lappend params_list CONFIG.load {true}
+lappend params_list CONFIG.output_width {6}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -499,14 +359,14 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i8}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {DOWN}
+lappend params_list CONFIG.count_mode {UP}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {true}
-lappend params_list CONFIG.output_width {6}
+lappend params_list CONFIG.load {false}
+lappend params_list CONFIG.output_width {5}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -521,20 +381,50 @@ set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_bi
 
 
 set existingipslist [get_ips]
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_dist_mem_gen_i2] < 0} {
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_dist_mem_gen_i2
+set params_list [list]
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_dist_mem_gen_i2}
+lappend params_list CONFIG.ce_overrides {sync_controls_overrides_ce}
+lappend params_list CONFIG.common_output_ce {false}
+lappend params_list CONFIG.common_output_clk {false}
+lappend params_list CONFIG.data_width {18}
+lappend params_list CONFIG.default_data {0}
+lappend params_list CONFIG.default_data_radix {16}
+lappend params_list CONFIG.depth {16}
+lappend params_list CONFIG.dual_port_address {non_registered}
+lappend params_list CONFIG.dual_port_output_clock_enable {false}
+lappend params_list CONFIG.input_clock_enable {false}
+lappend params_list CONFIG.input_options {non_registered}
+lappend params_list CONFIG.memory_type {dual_port_ram}
+lappend params_list CONFIG.output_options {non_registered}
+lappend params_list CONFIG.qualify_we_with_i_ce {false}
+lappend params_list CONFIG.reset_qdpo {false}
+lappend params_list CONFIG.reset_qspo {false}
+lappend params_list CONFIG.single_port_output_clock_enable {false}
+lappend params_list CONFIG.sync_reset_qdpo {false}
+lappend params_list CONFIG.sync_reset_qspo {false}
+lappend params_list CONFIG.coefficient_file {../blast_module_v6_cordic_ddc_dist_mem_gen_i2_vivado.coe}
+
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_dist_mem_gen_i2]
+}
+
+
+set existingipslist [get_ips]
 if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9] < 0} {
 create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9
 set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {UP}
+lappend params_list CONFIG.count_mode {DOWN}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {false}
-lappend params_list CONFIG.output_width {4}
+lappend params_list CONFIG.load {true}
+lappend params_list CONFIG.output_width {5}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -555,14 +445,14 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i10}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {DOWN}
+lappend params_list CONFIG.count_mode {UP}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {true}
-lappend params_list CONFIG.output_width {5}
+lappend params_list CONFIG.load {false}
+lappend params_list CONFIG.output_width {4}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -583,14 +473,14 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i11}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {UP}
+lappend params_list CONFIG.count_mode {DOWN}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {false}
-lappend params_list CONFIG.output_width {3}
+lappend params_list CONFIG.load {true}
+lappend params_list CONFIG.output_width {4}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -611,14 +501,14 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i12}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {DOWN}
+lappend params_list CONFIG.count_mode {UP}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
 lappend params_list CONFIG.implementation {Fabric}
 lappend params_list CONFIG.increment_value {1}
 lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {true}
-lappend params_list CONFIG.output_width {4}
+lappend params_list CONFIG.load {false}
+lappend params_list CONFIG.output_width {3}
 lappend params_list CONFIG.restrict_count {false}
 lappend params_list CONFIG.sclr {false}
 lappend params_list CONFIG.sinit {true}
@@ -723,34 +613,6 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16}
 lappend params_list CONFIG.ainit_value {0}
 lappend params_list CONFIG.ce {true}
-lappend params_list CONFIG.count_mode {UP}
-lappend params_list CONFIG.fb_latency {0}
-lappend params_list CONFIG.final_count_value {1}
-lappend params_list CONFIG.implementation {Fabric}
-lappend params_list CONFIG.increment_value {1}
-lappend params_list CONFIG.latency {1}
-lappend params_list CONFIG.load {false}
-lappend params_list CONFIG.output_width {10}
-lappend params_list CONFIG.restrict_count {false}
-lappend params_list CONFIG.sclr {false}
-lappend params_list CONFIG.sinit {true}
-lappend params_list CONFIG.sinit_value {0}
-lappend params_list CONFIG.sset {false}
-lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
-lappend params_list CONFIG.sync_threshold_output {false}
-lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i17] < 0} {
-create_ip -name c_counter_binary -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i17
-set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i17}
-lappend params_list CONFIG.ainit_value {0}
-lappend params_list CONFIG.ce {true}
 lappend params_list CONFIG.count_mode {DOWN}
 lappend params_list CONFIG.fb_latency {0}
 lappend params_list CONFIG.final_count_value {1}
@@ -768,15 +630,15 @@ lappend params_list CONFIG.sync_ce_priority {Sync_Overrides_CE}
 lappend params_list CONFIG.sync_threshold_output {false}
 lappend params_list CONFIG.syncctrlpriority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i17]
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_dist_mem_gen_i1] < 0} {
-create_ip -name dist_mem_gen -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_dist_mem_gen_i1
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_dist_mem_gen_i3] < 0} {
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_dist_mem_gen_i3
 set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_dist_mem_gen_i1}
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_dist_mem_gen_i3}
 lappend params_list CONFIG.ce_overrides {sync_controls_overrides_ce}
 lappend params_list CONFIG.common_output_ce {false}
 lappend params_list CONFIG.common_output_clk {false}
@@ -796,17 +658,17 @@ lappend params_list CONFIG.reset_qspo {false}
 lappend params_list CONFIG.single_port_output_clock_enable {false}
 lappend params_list CONFIG.sync_reset_qdpo {false}
 lappend params_list CONFIG.sync_reset_qspo {false}
-lappend params_list CONFIG.coefficient_file {../blast_module_v6_cordic_ddc_dist_mem_gen_i1_vivado.coe}
+lappend params_list CONFIG.coefficient_file {../blast_module_v6_cordic_ddc_dist_mem_gen_i3_vivado.coe}
 
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_dist_mem_gen_i1]
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_dist_mem_gen_i3]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i6] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i6
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i1] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i1
 set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i6}
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i1}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {35}
@@ -832,15 +694,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i6]
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i1]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i7] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i7
+if {[lsearch $existingipslist blast_module_v6_cordic_ddc_c_addsub_v12_0_i2] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name blast_module_v6_cordic_ddc_c_addsub_v12_0_i2
 set params_list [list]
-lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i7}
+lappend params_list CONFIG.Component_Name {blast_module_v6_cordic_ddc_c_addsub_v12_0_i2}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Unsigned}
 lappend params_list CONFIG.A_Width {17}
@@ -866,7 +728,7 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i7]
+set_property -dict $params_list [get_ips blast_module_v6_cordic_ddc_c_addsub_v12_0_i2]
 }
 
 
@@ -883,7 +745,7 @@ lappend params_list CONFIG.Compensation_Scaling {No_Scale_Compensation}
 lappend params_list CONFIG.Data_Format {SignedFraction}
 lappend params_list CONFIG.Functional_Selection {Rotate}
 lappend params_list CONFIG.Input_Width {18}
-lappend params_list CONFIG.Iterations {10}
+lappend params_list CONFIG.Iterations {18}
 lappend params_list CONFIG.Output_Width {19}
 lappend params_list CONFIG.Phase_Format {Scaled_Radians}
 lappend params_list CONFIG.Pipelining_Mode {Maximum}

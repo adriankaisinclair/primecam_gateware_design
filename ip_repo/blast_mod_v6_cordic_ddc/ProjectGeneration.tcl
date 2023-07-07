@@ -4,7 +4,7 @@
 
 
 namespace eval ::xilinx::dsp::planaheaddriver {
-	set BoardFileVersion {1.1}
+	set BoardFileVersion {1.4}
 	set BoardName {zcu111}
 	set BoardRevision {Rev}
 	set BoardVendor {xilinx.com}
@@ -15,7 +15,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set DSPFamily {zynquplus}
 	set DSPPackage {ffvg1517}
 	set DSPSpeed {-2-e}
-	set FPGAClockPeriod 3.9062
+	set FPGAClockPeriod 10
 	set GenerateTestBench 0
 	set HDLLanguage {vhdl}
 	set IPOOCCacheRootPath {/home/adrian/.Xilinx/Sysgen/SysgenVivado/lnx64.o/ip}
@@ -28,7 +28,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set IP_LifeCycle_Menu {2}
 	set IP_Logo {sysgen_icon_100.png}
 	set IP_Name {}
-	set IP_Revision {295810027}
+	set IP_Revision {315758935}
 	set IP_Socket_IP {0}
 	set IP_Socket_IP_Proj_Path {}
 	set IP_Vendor_Text {User_Company}
@@ -46,16 +46,10 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 		{{single_reg_w_init.vhd} -lib {xil_defaultlib}}
 		{{xlclockdriver_rd.vhd} -lib {xil_defaultlib}}
 		{{vivado_ip.tcl}}
-		{{xpm_4dd9cf_vivado.mem}}
-		{{xpm_5bb645_vivado.mem}}
 		{{blast_module_v6_cordic_ddc_dist_mem_gen_i0_vivado.coe}}
-		{{xpm_fb924d_vivado.mem}}
-		{{xpm_8aa795_vivado.mem}}
-		{{xpm_0bde1c_vivado.mem}}
-		{{xpm_d530c3_vivado.mem}}
-		{{xpm_255fd5_vivado.mem}}
+		{{blast_module_v6_cordic_ddc_dist_mem_gen_i1_vivado.coe}}
+		{{blast_module_v6_cordic_ddc_dist_mem_gen_i2_vivado.coe}}
 		{{xpm_effb0c_vivado.mem}}
-		{{xpm_384b27_vivado.mem}}
 		{{xpm_98f453_vivado.mem}}
 		{{xpm_cb2434_vivado.mem}}
 		{{xpm_45185a_vivado.mem}}
@@ -63,7 +57,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 		{{xpm_f0602d_vivado.mem}}
 		{{xpm_f7f5fd_vivado.mem}}
 		{{xpm_a54c85_vivado.mem}}
-		{{blast_module_v6_cordic_ddc_dist_mem_gen_i1_vivado.coe}}
+		{{blast_module_v6_cordic_ddc_dist_mem_gen_i3_vivado.coe}}
 		{{xpm_8739c2_vivado.mem}}
 		{{xpm_f6cc85_vivado.mem}}
 		{{xpm_b42cce_vivado.mem}}
@@ -83,12 +77,12 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	}
 	set SimPeriod 1
 	set SimTime 10
-	set SimulationTime {242.96820000 ns}
+	set SimulationTime {310.00000000 ns}
 	set SynthStrategyName {Vivado Synthesis Defaults}
 	set SynthesisTool {Vivado}
 	set TargetDir {/home/adrian/simulink_2022/blast_mod_v6_cordic_ddc}
 	set TopLevelModule {blast_module_v6_cordic_ddc}
-	set TopLevelSimulinkHandle 0.00012207
+	set TopLevelSimulinkHandle 74826
 	set VHDLLib {xil_defaultlib}
 	set TopLevelPortInterface {}
 	dict set TopLevelPortInterface start_dac Name {start_dac}
