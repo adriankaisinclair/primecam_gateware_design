@@ -1,0 +1,61 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_Layers":"",
+   "Default View_Layout":"",
+   "Default View_ScaleFactor":"0.522917",
+   "Default View_TopLeft":"-384,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace portBus dphi -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace portBus dout -pg 1 -lvl 4 -x 960 -y 230 -defaultsOSRD
+preplace portBus Din1 -pg 1 -lvl 0 -x 0 -y 770 -defaultsOSRD
+preplace portBus dout1 -pg 1 -lvl 4 -x 960 -y 590 -defaultsOSRD
+preplace portBus Din2 -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace portBus dout2 -pg 1 -lvl 4 -x 960 -y 710 -defaultsOSRD
+preplace inst I0 -pg 1 -lvl 1 -x 130 -y 250 -defaultsOSRD
+preplace inst Q0 -pg 1 -lvl 1 -x 130 -y 50 -defaultsOSRD
+preplace inst I1 -pg 1 -lvl 1 -x 130 -y 350 -defaultsOSRD
+preplace inst Q1 -pg 1 -lvl 1 -x 130 -y 150 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 830 -y 230 -defaultsOSRD
+preplace inst adc_q0 -pg 1 -lvl 1 -x 130 -y 770 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 130 -y 450 -defaultsOSRD
+preplace inst adc_q1 -pg 1 -lvl 1 -x 130 -y 870 -defaultsOSRD
+preplace inst iin -pg 1 -lvl 3 -x 830 -y 590 -defaultsOSRD
+preplace inst adc_i0 -pg 1 -lvl 1 -x 130 -y 570 -defaultsOSRD
+preplace inst adc_i1 -pg 1 -lvl 1 -x 130 -y 670 -defaultsOSRD
+preplace inst qin -pg 1 -lvl 3 -x 830 -y 710 -defaultsOSRD
+preplace inst cordic_mix_v1_adc -pg 1 -lvl 2 -x 490 -y 690 -defaultsOSRD
+preplace inst cordic_mix_v1_dac -pg 1 -lvl 2 -x 490 -y 250 -defaultsOSRD
+preplace netloc I0_Dout 1 1 1 NJ 250
+preplace netloc I1_Dout 1 1 1 240J 270n
+preplace netloc In1_3 1 3 1 NJ 590
+preplace netloc Net6 1 0 1 20 770n
+preplace netloc Net7 1 0 1 20 570n
+preplace netloc Q0_Dout 1 1 1 270J 50n
+preplace netloc Q1_Dout 1 1 1 240J 150n
+preplace netloc adc_i0_Dout 1 1 1 240J 570n
+preplace netloc adc_i1_Dout 1 1 1 NJ 670
+preplace netloc adc_q0_Dout 1 1 1 240J 690n
+preplace netloc adc_q1_Dout 1 1 1 280J 710n
+preplace netloc chan1ts_z 1 0 1 20 50n
+preplace netloc clk_wiz_0_clk_out1 1 0 2 NJ 930 270
+preplace netloc cordic_mix_v1_0_out_im_even 1 2 1 N 220
+preplace netloc cordic_mix_v1_0_out_im_odd 1 2 1 710 240n
+preplace netloc cordic_mix_v1_0_out_re_even 1 2 1 700 200n
+preplace netloc cordic_mix_v1_0_out_re_odd 1 2 1 720 240n
+preplace netloc cordic_mix_v1_adc_out_im_even 1 2 1 700 580n
+preplace netloc cordic_mix_v1_adc_out_im_odd 1 2 1 720 600n
+preplace netloc cordic_mix_v1_adc_out_re_even 1 2 1 N 700
+preplace netloc cordic_mix_v1_adc_out_re_odd 1 2 1 N 720
+preplace netloc dphi_Dout 1 0 2 NJ 510 250
+preplace netloc qin_dout 1 3 1 NJ 710
+preplace netloc xlconcat_0_dout 1 3 1 NJ 230
+preplace netloc xlconstant_1_dout 1 1 1 260 290n
+levelinfo -pg 1 0 130 490 830 960
+pagesize -pg 1 -db -bbox -sgen -130 -10 1100 950
+"
+}
+
